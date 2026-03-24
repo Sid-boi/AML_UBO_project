@@ -1,0 +1,133 @@
+{
+  "records": {
+    "GOLDEN_000000": {
+      "entity_type": "person",
+      "address": "London",
+      "dob": "1985-01-01",
+      "full_name": "John Smith",
+      "nationality": "British",
+      "source_type": "synthetic",
+      "golden_id": "GOLDEN_000000",
+      "source_record_ids": [
+        "REC_001",
+        "REC_002"
+      ],
+      "source_records": [
+        {
+          "record_id": "REC_001",
+          "entity_id": "ENTITY_A",
+          "entity_type": "person",
+          "full_name": "John Smith",
+          "dob": "1985-01-01",
+          "address": "London UK",
+          "nationality": "British",
+          "source": "synthetic",
+          "source_type": "synthetic",
+          "ingested_at": "2024-02-07T10:00:00"
+        },
+        {
+          "record_id": "REC_002",
+          "entity_id": "ENTITY_A",
+          "entity_type": "person",
+          "full_name": "J. Smith",
+          "dob": "1985-01-01",
+          "address": "London",
+          "nationality": "British",
+          "source": "synthetic",
+          "source_type": "synthetic",
+          "ingested_at": "2024-02-07T10:01:00"
+        }
+      ],
+      "source_count": 2,
+      "created_at": "2026-02-27T08:56:48.964206",
+      "blocking_key": "P:S:1985-01-01",
+      "director_count": 0,
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000001": {
+      "entity_type": "person",
+      "address": "Manchester UK",
+      "dob": "1990-05-15",
+      "full_name": "Jane Doe",
+      "nationality": "British",
+      "source_type": "synthetic",
+      "golden_id": "GOLDEN_000001",
+      "source_record_ids": [
+        "REC_003"
+      ],
+      "source_records": [
+        {
+          "record_id": "REC_003",
+          "entity_id": "ENTITY_B",
+          "entity_type": "person",
+          "full_name": "Jane Doe",
+          "dob": "1990-05-15",
+          "address": "Manchester UK",
+          "nationality": "British",
+          "source": "synthetic",
+          "source_type": "synthetic",
+          "ingested_at": "2024-02-07T10:02:00"
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-27T08:56:48.978075",
+      "blocking_key": "P:D:1990-05-15",
+      "director_count": 0,
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000002": {
+      "entity_type": "company",
+      "address": "London",
+      "dob": NaN,
+      "full_name": "Acme Ltd",
+      "nationality": "British",
+      "source_type": "regulatory",
+      "golden_id": "GOLDEN_000002",
+      "source_record_ids": [
+        "REC_004"
+      ],
+      "source_records": [
+        {
+          "record_id": "REC_004",
+          "entity_id": "ENTITY_C",
+          "entity_type": "company",
+          "full_name": "Acme Ltd",
+          "dob": NaN,
+          "address": "London",
+          "nationality": "British",
+          "source": "companies_house",
+          "source_type": "regulatory",
+          "ingested_at": "2024-02-07T10:03:00"
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-27T08:56:48.991579",
+      "blocking_key": "CO:LONDON:BRITISH",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [],
+      "director_of": [],
+      "has_director": []
+    }
+  },
+  "metadata": {
+    "total_nodes": 3,
+    "total_edges": 0,
+    "created_at": "2026-02-27T08:56:48.997901",
+    "source_records_processed": 7
+  }
+}

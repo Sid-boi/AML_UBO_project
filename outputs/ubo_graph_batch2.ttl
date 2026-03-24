@@ -1,0 +1,2203 @@
+@prefix entity: <http://example.org/entity/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix ubo: <http://example.org/ubo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+entity:GOLDEN_000000 a ubo:Person ;
+    ubo:dateOfBirth "1961-02-05"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "156 Queen Street, Oxford, United Kingdom" ;
+    ubo:hasCity "Oxford" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000000" ;
+    ubo:hasName "Pierre White" ;
+    ubo:hasNationality "British" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000019 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 75.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:owns entity:GOLDEN_000019 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.833327"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_ .
+
+entity:GOLDEN_000001 a ubo:Person,
+        ubo:PoliticallyExposedPerson ;
+    ubo:dateOfBirth "1984-10-20"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "807 Queen Street, Newcastle, United Kingdom" ;
+    ubo:hasCity "Newcastle" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000001" ;
+    ubo:hasName "William Rodriguez" ;
+    ubo:hasNationality "British" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000023 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 30.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP true ;
+    ubo:owns entity:GOLDEN_000023 ;
+    ubo:pepLevel "military" ;
+    ubo:riskFactor "POLITICALLY_EXPOSED: PEP: military" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 20.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.833327"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_001 .
+
+entity:GOLDEN_000006 a ubo:Person ;
+    ubo:dateOfBirth "1978-06-09"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "984 High Street, Berlin, France" ;
+    ubo:hasCity "Berlin" ;
+    ubo:hasCountry "France" ;
+    ubo:hasGoldenId "GOLDEN_000006" ;
+    ubo:hasName "Thomas Smith" ;
+    ubo:hasNationality "American" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.849353"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_006 .
+
+entity:GOLDEN_000008 a ubo:Person ;
+    ubo:dateOfBirth "1990-01-24"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "163 King Street, Cambridge, United Kingdom" ;
+    ubo:hasCity "Cambridge" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000008" ;
+    ubo:hasName "Li Jackson" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.865114"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_008,
+        entity:RECORD_REC_SYNTH_P_008_01 .
+
+entity:GOLDEN_000009 a ubo:Person ;
+    ubo:dateOfBirth "1986-12-17"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "625 Main Street, New York, Germany" ;
+    ubo:hasCity "New York" ;
+    ubo:hasCountry "Germany" ;
+    ubo:hasGoldenId "GOLDEN_000009" ;
+    ubo:hasName "Mohammed Sanchez" ;
+    ubo:hasNationality "Chinese" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000031 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 30.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:owns entity:GOLDEN_000031 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.868270"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_009 .
+
+entity:GOLDEN_000011 a ubo:Person ;
+    ubo:dateOfBirth "1993-09-26"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "170 King Street, Cambridge, United Kingdom" ;
+    ubo:hasCity "Cambridge" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000011" ;
+    ubo:hasName "Maria Nguyen" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.868270"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_011 .
+
+entity:GOLDEN_000012 a ubo:Person ;
+    ubo:dateOfBirth "1956-12-23"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "334 High Street, Berlin, Germany" ;
+    ubo:hasCity "Berlin" ;
+    ubo:hasCountry "Germany" ;
+    ubo:hasGoldenId "GOLDEN_000012" ;
+    ubo:hasName "Emma Lee" ;
+    ubo:hasNationality "French" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.880853"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_012 .
+
+entity:GOLDEN_000016 a ubo:Company ;
+    ubo:companyNumber "75067126" ;
+    ubo:dateIncorporated "2022-06-18"^^xsd:date ;
+    ubo:employeeCount 25 ;
+    ubo:hasAddress "543 Business Park, Liverpool, United Kingdom" ;
+    ubo:hasCity "Liverpool" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000016" ;
+    ubo:hasName "Quantum Energy Technologies Inc" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.880853"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_ .
+
+entity:GOLDEN_000022 a ubo:Company ;
+    ubo:companyNumber "75198843" ;
+    ubo:dateIncorporated "2019-08-19"^^xsd:date ;
+    ubo:employeeCount 15 ;
+    ubo:hasAddress "802 Business Park, London, United Kingdom" ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000022" ;
+    ubo:hasName "Vertex Energy Group Plc" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.916589"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_006 .
+
+entity:GOLDEN_000033 a ubo:Company ;
+    ubo:companyNumber "28556316" ;
+    ubo:dateIncorporated "2017-12-18"^^xsd:date ;
+    ubo:employeeCount 500 ;
+    ubo:hasAddress "561 Business Park, Glasgow, United Kingdom" ;
+    ubo:hasCity "Glasgow" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000033" ;
+    ubo:hasName "International Healthcare Financial Services" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.953635"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_017 .
+
+entity:GOLDEN_000035 a ubo:Person ;
+    ubo:dateOfBirth "1975-03-08"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "86 Queen Street, Beijing, Russia" ;
+    ubo:hasCity "Beijing" ;
+    ubo:hasCountry "Russia" ;
+    ubo:hasGoldenId "GOLDEN_000035" ;
+    ubo:hasName "Susan King" ;
+    ubo:hasNationality "French" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000032 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 25.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:owns entity:GOLDEN_000032 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.953635"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_029 .
+
+entity:GOLDEN_000038 a ubo:Person ;
+    ubo:dateOfBirth "1962-09-06"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "452 Park Street, Cambridge, United Kingdom" ;
+    ubo:hasCity "Cambridge" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000038" ;
+    ubo:hasName "Thomas Young" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.969745"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_032 .
+
+entity:GOLDEN_000039 a ubo:Person ;
+    ubo:dateOfBirth "1951-03-31"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "354 High Street, Cambridge, United Kingdom" ;
+    ubo:hasCity "Cambridge" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000039" ;
+    ubo:hasName "Sophie Miller" ;
+    ubo:hasNationality "British" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000025 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 60.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:owns entity:GOLDEN_000025 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.969745"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_033 .
+
+entity:GOLDEN_000040 a ubo:Person ;
+    ubo:dateOfBirth "1957-01-17"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "475 High Street, Edinburgh, United Kingdom" ;
+    ubo:hasCity "Edinburgh" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000040" ;
+    ubo:hasName "Yuki Green" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.969745"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_034 .
+
+entity:GOLDEN_000046 a ubo:Company ;
+    ubo:companyNumber "37907234" ;
+    ubo:dateIncorporated "2001-08-04"^^xsd:date ;
+    ubo:employeeCount 10 ;
+    ubo:hasAddress "185 Business Park, Cambridge, United Kingdom" ;
+    ubo:hasCity "Cambridge" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000046" ;
+    ubo:hasName "Global Healthcare Ventures Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.002946"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_042 .
+
+entity:GOLDEN_000048 a ubo:Company ;
+    ubo:companyNumber "61480137" ;
+    ubo:dateIncorporated "2007-04-11"^^xsd:date ;
+    ubo:employeeCount 100 ;
+    ubo:hasAddress "824 Business Park, Birmingham, United Kingdom" ;
+    ubo:hasCity "Birmingham" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000048" ;
+    ubo:hasName "Quantum Finance Resources Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.013570"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_044 .
+
+entity:GOLDEN_000051 a ubo:Company ;
+    ubo:companyNumber "40638531" ;
+    ubo:dateIncorporated "2007-11-22"^^xsd:date ;
+    ubo:employeeCount 50 ;
+    ubo:hasAddress "22 Business Park, Bristol, United Kingdom" ;
+    ubo:hasCity "Bristol" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000051" ;
+    ubo:hasName "Advanced Tech Holdings Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.013570"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_047 .
+
+entity:GOLDEN_000052 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF73914" ;
+    ubo:dateIncorporated "2020-07-04"^^xsd:date ;
+    ubo:employeeCount 1 ;
+    ubo:hasAddress "483 Business Park, Dubai, United Arab Emirates" ;
+    ubo:hasCity "Dubai" ;
+    ubo:hasCountry "United Arab Emirates" ;
+    ubo:hasGoldenId "GOLDEN_000052" ;
+    ubo:hasName "Vertex Capital Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskFactor "SHELL_COMPANY: Offshore, 1 employees" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 30.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.013570"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_048 .
+
+entity:GOLDEN_000054 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF25926" ;
+    ubo:dateIncorporated "2018-01-31"^^xsd:date ;
+    ubo:hasAddress "714 Business Park, Douglas, Isle of Man" ;
+    ubo:hasCity "Douglas" ;
+    ubo:hasCountry "Isle of Man" ;
+    ubo:hasGoldenId "GOLDEN_000054" ;
+    ubo:hasName "Advanced Investments Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.028727"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_05 .
+
+entity:GOLDEN_000056 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF24531" ;
+    ubo:dateIncorporated "2006-06-22"^^xsd:date ;
+    ubo:employeeCount 1 ;
+    ubo:hasAddress "847 Business Park, Nassau, Bahamas" ;
+    ubo:hasCity "Nassau" ;
+    ubo:hasCountry "Bahamas" ;
+    ubo:hasGoldenId "GOLDEN_000056" ;
+    ubo:hasName "Premier Ventures Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskFactor "SHELL_COMPANY: Offshore, 1 employees" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 30.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.028727"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_052 .
+
+entity:GOLDEN_000060 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF51268" ;
+    ubo:dateIncorporated "2008-01-08"^^xsd:date ;
+    ubo:hasAddress "343 Business Park, Luxembourg City, Luxembourg" ;
+    ubo:hasCity "Luxembourg City" ;
+    ubo:hasCountry "Luxembourg" ;
+    ubo:hasGoldenId "GOLDEN_000060" ;
+    ubo:hasName "International Capital Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.044506"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_056 .
+
+entity:GOLDEN_000066 a ubo:Person,
+        ubo:PoliticallyExposedPerson ;
+    ubo:dateOfBirth "1968-09-05"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "45 Red Square, Moscow, Russia" ;
+    ubo:hasCity "Moscow" ;
+    ubo:hasCountry "Russia" ;
+    ubo:hasGoldenId "GOLDEN_000066" ;
+    ubo:hasName "Elena Volkov" ;
+    ubo:hasNationality "Russian" ;
+    ubo:isNominee false ;
+    ubo:isPEP true ;
+    ubo:pepLevel "minister" ;
+    ubo:riskFactor "POLITICALLY_EXPOSED: PEP: minister" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 20.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-03-01T14:15:11.927335"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_BATCH2_004 .
+
+entity:GOLDEN_000003 a ubo:Person,
+        ubo:PoliticallyExposedPerson ;
+    ubo:dateOfBirth "1961-09-17"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000021 ;
+    ubo:hasAddress "792 Main Street, Cardiff, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000021 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000003 ] ;
+    ubo:hasCity "Cardiff" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000003" ;
+    ubo:hasName "Joseph Lewis" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP true ;
+    ubo:pepLevel "central_bank" ;
+    ubo:riskFactor "POLITICALLY_EXPOSED: PEP: central_bank" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 20.0 ;
+    ubo:sourceCount 2 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.833327"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_003,
+        entity:RECORD_REC_SYNTH_P_003_01 .
+
+entity:GOLDEN_000005 a ubo:Person ;
+    ubo:dateOfBirth "1972-03-08"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000055 ;
+    ubo:hasAddress "61 Queen Street, Berlin, USA" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000055 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000005 ] ;
+    ubo:hasCity "Berlin" ;
+    ubo:hasCountry "USA" ;
+    ubo:hasGoldenId "GOLDEN_000005" ;
+    ubo:hasName "Maria Clark" ;
+    ubo:hasNationality "French" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.849353"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_005,
+        entity:RECORD_REC_SYNTH_P_005_01 .
+
+entity:GOLDEN_000007 a ubo:Person ;
+    ubo:dateOfBirth "1964-09-10"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000058 ;
+    ubo:hasAddress "806 High Street, Cambridge, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000058 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000007 ] ;
+    ubo:hasCity "Cambridge" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000007" ;
+    ubo:hasName "Karen Thomas" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.849353"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_007,
+        entity:RECORD_REC_SYNTH_P_007_01 .
+
+entity:GOLDEN_000010 a ubo:Person ;
+    ubo:dateOfBirth "1970-05-31"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000031 ;
+    ubo:hasAddress "70 Park Street, Liverpool, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000031 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000010 ] ;
+    ubo:hasCity "Liverpool" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000010" ;
+    ubo:hasName "Robert Harris" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 3 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.868270"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_01,
+        entity:RECORD_REC_SYNTH_P_010_01,
+        entity:RECORD_REC_SYNTH_P_010_02 .
+
+entity:GOLDEN_000014 a ubo:Person,
+        ubo:PoliticallyExposedPerson ;
+    ubo:dateOfBirth "1953-10-06"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000026 ;
+    ubo:hasAddress "309 Queen Street, London, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000026 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000014 ] ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000014" ;
+    ubo:hasName "William Jones" ;
+    ubo:hasNationality "British" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000017 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 60.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP true ;
+    ubo:owns entity:GOLDEN_000017 ;
+    ubo:pepLevel "state_enterprise" ;
+    ubo:riskFactor "POLITICALLY_EXPOSED: PEP: state_enterprise" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 20.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.880853"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_014 .
+
+entity:GOLDEN_000015 a ubo:Person ;
+    ubo:dateOfBirth "1989-07-25"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000059 ;
+    ubo:hasAddress "736 High Street, Bristol, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000059 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000015 ] ;
+    ubo:hasCity "Bristol" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000015" ;
+    ubo:hasName "Dmitri Clark" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.880853"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_015,
+        entity:RECORD_REC_SYNTH_P_015_01 .
+
+entity:GOLDEN_000036 a ubo:Person ;
+    ubo:dateOfBirth "1994-01-25"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000050 ;
+    ubo:hasAddress "603 Main Street, Edinburgh, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000050 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000036 ] ;
+    ubo:hasCity "Edinburgh" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000036" ;
+    ubo:hasName "Robert Jones" ;
+    ubo:hasNationality "British" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000027 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 40.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:owns entity:GOLDEN_000027 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.969745"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_03 .
+
+entity:GOLDEN_000037 a ubo:Person ;
+    ubo:dateOfBirth "1959-01-11"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000029 ;
+    ubo:hasAddress "915 Queen Street, London, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000029 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000037 ] ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000037" ;
+    ubo:hasName "Ali Ramirez" ;
+    ubo:hasNationality "British" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000021 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 51.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ],
+        [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000030 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 75.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:owns entity:GOLDEN_000021,
+        entity:GOLDEN_000030 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.969745"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_031 .
+
+entity:GOLDEN_000041 a ubo:Person ;
+    ubo:dateOfBirth "1988-05-07"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000025 ;
+    ubo:hasAddress "484 Queen Street, Berlin, India" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000025 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000041 ] ;
+    ubo:hasCity "Berlin" ;
+    ubo:hasCountry "India" ;
+    ubo:hasGoldenId "GOLDEN_000041" ;
+    ubo:hasName "Linda Lewis" ;
+    ubo:hasNationality "American" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.985680"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_035 .
+
+entity:GOLDEN_000042 a ubo:Person,
+        ubo:PoliticallyExposedPerson ;
+    ubo:dateOfBirth "1979-02-03"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000061 ;
+    ubo:hasAddress "959 High Street, Paris, India" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000061 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000042 ] ;
+    ubo:hasCity "Paris" ;
+    ubo:hasCountry "India" ;
+    ubo:hasGoldenId "GOLDEN_000042" ;
+    ubo:hasName "Lars Baker" ;
+    ubo:hasNationality "Indian" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000024 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 30.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP true ;
+    ubo:owns entity:GOLDEN_000024 ;
+    ubo:pepLevel "central_bank" ;
+    ubo:riskFactor "POLITICALLY_EXPOSED: PEP: central_bank" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 20.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.985680"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_036 .
+
+entity:GOLDEN_000043 a ubo:Person ;
+    ubo:dateOfBirth "1991-10-08"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000055 ;
+    ubo:hasAddress "9 High Street, Mumbai, Russia" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000055 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000043 ] ;
+    ubo:hasCity "Mumbai" ;
+    ubo:hasCountry "Russia" ;
+    ubo:hasGoldenId "GOLDEN_000043" ;
+    ubo:hasName "Karen Adams" ;
+    ubo:hasNationality "German" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.985680"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_037 .
+
+entity:GOLDEN_000044 a ubo:Person ;
+    ubo:dateOfBirth "1975-10-09"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000018 ;
+    ubo:hasAddress "608 Main Street, New York, Russia" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000018 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000044 ] ;
+    ubo:hasCity "New York" ;
+    ubo:hasCountry "Russia" ;
+    ubo:hasGoldenId "GOLDEN_000044" ;
+    ubo:hasName "Mary Green" ;
+    ubo:hasNationality "Russian" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.985680"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_038 .
+
+entity:GOLDEN_000064 a ubo:Person,
+        ubo:PoliticallyExposedPerson ;
+    ubo:dateOfBirth "1975-11-23"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000069 ;
+    ubo:hasAddress "88 Marina Bay, Singapore" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000069 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000064 ] ;
+    ubo:hasCity "Singapore" ;
+    ubo:hasCountry "Singapore" ;
+    ubo:hasGoldenId "GOLDEN_000064" ;
+    ubo:hasName "Alexandra Chen" ;
+    ubo:hasNationality "Singaporean" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000071 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 35.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ],
+        [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000067 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 60.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP true ;
+    ubo:owns entity:GOLDEN_000067,
+        entity:GOLDEN_000071 ;
+    ubo:pepLevel "diplomat" ;
+    ubo:riskFactor "POLITICALLY_EXPOSED: PEP: diplomat" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 20.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-03-01T14:15:11.789572"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_BATCH2_002 .
+
+entity:RECORD_REC_BATCH2_001 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_BATCH2_001" ;
+    prov:label "Original record REC_BATCH2_001" .
+
+entity:RECORD_REC_BATCH2_002 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_BATCH2_002" ;
+    prov:label "Original record REC_BATCH2_002" .
+
+entity:RECORD_REC_BATCH2_003 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_BATCH2_003" ;
+    prov:label "Original record REC_BATCH2_003" .
+
+entity:RECORD_REC_BATCH2_004 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_BATCH2_004" ;
+    prov:label "Original record REC_BATCH2_004" .
+
+entity:RECORD_REC_BATCH2_C_001 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_BATCH2_C_001" ;
+    prov:label "Original record REC_BATCH2_C_001" .
+
+entity:RECORD_REC_BATCH2_C_002 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_BATCH2_C_002" ;
+    prov:label "Original record REC_BATCH2_C_002" .
+
+entity:RECORD_REC_BATCH2_C_003 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_BATCH2_C_003" ;
+    prov:label "Original record REC_BATCH2_C_003" .
+
+entity:RECORD_REC_BATCH2_C_004 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_BATCH2_C_004" ;
+    prov:label "Original record REC_BATCH2_C_004" .
+
+entity:RECORD_REC_BATCH2_C_005 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_BATCH2_C_005" ;
+    prov:label "Original record REC_BATCH2_C_005" .
+
+entity:RECORD_REC_SYNTH_C_ a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_" ;
+    prov:label "Original record REC_SYNTH_C_" .
+
+entity:RECORD_REC_SYNTH_C_001 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_001" ;
+    prov:label "Original record REC_SYNTH_C_001" .
+
+entity:RECORD_REC_SYNTH_C_002 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_002" ;
+    prov:label "Original record REC_SYNTH_C_002" .
+
+entity:RECORD_REC_SYNTH_C_003 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_003" ;
+    prov:label "Original record REC_SYNTH_C_003" .
+
+entity:RECORD_REC_SYNTH_C_004 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_004" ;
+    prov:label "Original record REC_SYNTH_C_004" .
+
+entity:RECORD_REC_SYNTH_C_005 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_005" ;
+    prov:label "Original record REC_SYNTH_C_005" .
+
+entity:RECORD_REC_SYNTH_C_006 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_006" ;
+    prov:label "Original record REC_SYNTH_C_006" .
+
+entity:RECORD_REC_SYNTH_C_007 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_007" ;
+    prov:label "Original record REC_SYNTH_C_007" .
+
+entity:RECORD_REC_SYNTH_C_008 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_008" ;
+    prov:label "Original record REC_SYNTH_C_008" .
+
+entity:RECORD_REC_SYNTH_C_009 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_009" ;
+    prov:label "Original record REC_SYNTH_C_009" .
+
+entity:RECORD_REC_SYNTH_C_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_01" ;
+    prov:label "Original record REC_SYNTH_C_01" .
+
+entity:RECORD_REC_SYNTH_C_011 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_011" ;
+    prov:label "Original record REC_SYNTH_C_011" .
+
+entity:RECORD_REC_SYNTH_C_012 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_012" ;
+    prov:label "Original record REC_SYNTH_C_012" .
+
+entity:RECORD_REC_SYNTH_C_013 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_013" ;
+    prov:label "Original record REC_SYNTH_C_013" .
+
+entity:RECORD_REC_SYNTH_C_014 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_014" ;
+    prov:label "Original record REC_SYNTH_C_014" .
+
+entity:RECORD_REC_SYNTH_C_015 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_015" ;
+    prov:label "Original record REC_SYNTH_C_015" .
+
+entity:RECORD_REC_SYNTH_C_016 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_016" ;
+    prov:label "Original record REC_SYNTH_C_016" .
+
+entity:RECORD_REC_SYNTH_C_017 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_017" ;
+    prov:label "Original record REC_SYNTH_C_017" .
+
+entity:RECORD_REC_SYNTH_C_042 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_042" ;
+    prov:label "Original record REC_SYNTH_C_042" .
+
+entity:RECORD_REC_SYNTH_C_043 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_043" ;
+    prov:label "Original record REC_SYNTH_C_043" .
+
+entity:RECORD_REC_SYNTH_C_044 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_044" ;
+    prov:label "Original record REC_SYNTH_C_044" .
+
+entity:RECORD_REC_SYNTH_C_045 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_045" ;
+    prov:label "Original record REC_SYNTH_C_045" .
+
+entity:RECORD_REC_SYNTH_C_046 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_046" ;
+    prov:label "Original record REC_SYNTH_C_046" .
+
+entity:RECORD_REC_SYNTH_C_047 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_047" ;
+    prov:label "Original record REC_SYNTH_C_047" .
+
+entity:RECORD_REC_SYNTH_C_048 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_048" ;
+    prov:label "Original record REC_SYNTH_C_048" .
+
+entity:RECORD_REC_SYNTH_C_049 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_049" ;
+    prov:label "Original record REC_SYNTH_C_049" .
+
+entity:RECORD_REC_SYNTH_C_05 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_05" ;
+    prov:label "Original record REC_SYNTH_C_05" .
+
+entity:RECORD_REC_SYNTH_C_051 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_051" ;
+    prov:label "Original record REC_SYNTH_C_051" .
+
+entity:RECORD_REC_SYNTH_C_052 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_052" ;
+    prov:label "Original record REC_SYNTH_C_052" .
+
+entity:RECORD_REC_SYNTH_C_053 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_053" ;
+    prov:label "Original record REC_SYNTH_C_053" .
+
+entity:RECORD_REC_SYNTH_C_054 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_054" ;
+    prov:label "Original record REC_SYNTH_C_054" .
+
+entity:RECORD_REC_SYNTH_C_055 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_055" ;
+    prov:label "Original record REC_SYNTH_C_055" .
+
+entity:RECORD_REC_SYNTH_C_056 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_056" ;
+    prov:label "Original record REC_SYNTH_C_056" .
+
+entity:RECORD_REC_SYNTH_C_057 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_057" ;
+    prov:label "Original record REC_SYNTH_C_057" .
+
+entity:RECORD_REC_SYNTH_C_058 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_058" ;
+    prov:label "Original record REC_SYNTH_C_058" .
+
+entity:RECORD_REC_SYNTH_C_059 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_C_059" ;
+    prov:label "Original record REC_SYNTH_C_059" .
+
+entity:RECORD_REC_SYNTH_P_ a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_" ;
+    prov:label "Original record REC_SYNTH_P_" .
+
+entity:RECORD_REC_SYNTH_P_001 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_001" ;
+    prov:label "Original record REC_SYNTH_P_001" .
+
+entity:RECORD_REC_SYNTH_P_002 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002" ;
+    prov:label "Original record REC_SYNTH_P_002" .
+
+entity:RECORD_REC_SYNTH_P_002_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_01" ;
+    prov:label "Original record REC_SYNTH_P_002_01" .
+
+entity:RECORD_REC_SYNTH_P_002_02 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_02" ;
+    prov:label "Original record REC_SYNTH_P_002_02" .
+
+entity:RECORD_REC_SYNTH_P_002_03 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_03" ;
+    prov:label "Original record REC_SYNTH_P_002_03" .
+
+entity:RECORD_REC_SYNTH_P_002_04 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_04" ;
+    prov:label "Original record REC_SYNTH_P_002_04" .
+
+entity:RECORD_REC_SYNTH_P_002_05 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_05" ;
+    prov:label "Original record REC_SYNTH_P_002_05" .
+
+entity:RECORD_REC_SYNTH_P_002_06 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_06" ;
+    prov:label "Original record REC_SYNTH_P_002_06" .
+
+entity:RECORD_REC_SYNTH_P_002_07 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_07" ;
+    prov:label "Original record REC_SYNTH_P_002_07" .
+
+entity:RECORD_REC_SYNTH_P_002_08 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_08" ;
+    prov:label "Original record REC_SYNTH_P_002_08" .
+
+entity:RECORD_REC_SYNTH_P_002_09 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_09" ;
+    prov:label "Original record REC_SYNTH_P_002_09" .
+
+entity:RECORD_REC_SYNTH_P_002_1 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_1" ;
+    prov:label "Original record REC_SYNTH_P_002_1" .
+
+entity:RECORD_REC_SYNTH_P_002_11 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_11" ;
+    prov:label "Original record REC_SYNTH_P_002_11" .
+
+entity:RECORD_REC_SYNTH_P_002_12 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_12" ;
+    prov:label "Original record REC_SYNTH_P_002_12" .
+
+entity:RECORD_REC_SYNTH_P_002_13 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_13" ;
+    prov:label "Original record REC_SYNTH_P_002_13" .
+
+entity:RECORD_REC_SYNTH_P_002_14 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_002_14" ;
+    prov:label "Original record REC_SYNTH_P_002_14" .
+
+entity:RECORD_REC_SYNTH_P_003 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_003" ;
+    prov:label "Original record REC_SYNTH_P_003" .
+
+entity:RECORD_REC_SYNTH_P_003_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_003_01" ;
+    prov:label "Original record REC_SYNTH_P_003_01" .
+
+entity:RECORD_REC_SYNTH_P_004 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_004" ;
+    prov:label "Original record REC_SYNTH_P_004" .
+
+entity:RECORD_REC_SYNTH_P_004_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_004_01" ;
+    prov:label "Original record REC_SYNTH_P_004_01" .
+
+entity:RECORD_REC_SYNTH_P_004_02 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_004_02" ;
+    prov:label "Original record REC_SYNTH_P_004_02" .
+
+entity:RECORD_REC_SYNTH_P_005 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_005" ;
+    prov:label "Original record REC_SYNTH_P_005" .
+
+entity:RECORD_REC_SYNTH_P_005_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_005_01" ;
+    prov:label "Original record REC_SYNTH_P_005_01" .
+
+entity:RECORD_REC_SYNTH_P_006 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_006" ;
+    prov:label "Original record REC_SYNTH_P_006" .
+
+entity:RECORD_REC_SYNTH_P_007 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_007" ;
+    prov:label "Original record REC_SYNTH_P_007" .
+
+entity:RECORD_REC_SYNTH_P_007_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_007_01" ;
+    prov:label "Original record REC_SYNTH_P_007_01" .
+
+entity:RECORD_REC_SYNTH_P_008 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_008" ;
+    prov:label "Original record REC_SYNTH_P_008" .
+
+entity:RECORD_REC_SYNTH_P_008_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_008_01" ;
+    prov:label "Original record REC_SYNTH_P_008_01" .
+
+entity:RECORD_REC_SYNTH_P_009 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_009" ;
+    prov:label "Original record REC_SYNTH_P_009" .
+
+entity:RECORD_REC_SYNTH_P_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_01" ;
+    prov:label "Original record REC_SYNTH_P_01" .
+
+entity:RECORD_REC_SYNTH_P_010_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_010_01" ;
+    prov:label "Original record REC_SYNTH_P_010_01" .
+
+entity:RECORD_REC_SYNTH_P_010_02 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_010_02" ;
+    prov:label "Original record REC_SYNTH_P_010_02" .
+
+entity:RECORD_REC_SYNTH_P_011 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_011" ;
+    prov:label "Original record REC_SYNTH_P_011" .
+
+entity:RECORD_REC_SYNTH_P_012 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_012" ;
+    prov:label "Original record REC_SYNTH_P_012" .
+
+entity:RECORD_REC_SYNTH_P_013 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013" ;
+    prov:label "Original record REC_SYNTH_P_013" .
+
+entity:RECORD_REC_SYNTH_P_013_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_01" ;
+    prov:label "Original record REC_SYNTH_P_013_01" .
+
+entity:RECORD_REC_SYNTH_P_013_02 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_02" ;
+    prov:label "Original record REC_SYNTH_P_013_02" .
+
+entity:RECORD_REC_SYNTH_P_013_03 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_03" ;
+    prov:label "Original record REC_SYNTH_P_013_03" .
+
+entity:RECORD_REC_SYNTH_P_013_04 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_04" ;
+    prov:label "Original record REC_SYNTH_P_013_04" .
+
+entity:RECORD_REC_SYNTH_P_013_05 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_05" ;
+    prov:label "Original record REC_SYNTH_P_013_05" .
+
+entity:RECORD_REC_SYNTH_P_013_06 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_06" ;
+    prov:label "Original record REC_SYNTH_P_013_06" .
+
+entity:RECORD_REC_SYNTH_P_013_07 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_07" ;
+    prov:label "Original record REC_SYNTH_P_013_07" .
+
+entity:RECORD_REC_SYNTH_P_013_08 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_08" ;
+    prov:label "Original record REC_SYNTH_P_013_08" .
+
+entity:RECORD_REC_SYNTH_P_013_09 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_09" ;
+    prov:label "Original record REC_SYNTH_P_013_09" .
+
+entity:RECORD_REC_SYNTH_P_013_1 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_1" ;
+    prov:label "Original record REC_SYNTH_P_013_1" .
+
+entity:RECORD_REC_SYNTH_P_013_11 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_11" ;
+    prov:label "Original record REC_SYNTH_P_013_11" .
+
+entity:RECORD_REC_SYNTH_P_013_12 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_12" ;
+    prov:label "Original record REC_SYNTH_P_013_12" .
+
+entity:RECORD_REC_SYNTH_P_013_13 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_13" ;
+    prov:label "Original record REC_SYNTH_P_013_13" .
+
+entity:RECORD_REC_SYNTH_P_013_14 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_14" ;
+    prov:label "Original record REC_SYNTH_P_013_14" .
+
+entity:RECORD_REC_SYNTH_P_013_15 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_013_15" ;
+    prov:label "Original record REC_SYNTH_P_013_15" .
+
+entity:RECORD_REC_SYNTH_P_014 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_014" ;
+    prov:label "Original record REC_SYNTH_P_014" .
+
+entity:RECORD_REC_SYNTH_P_015 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_015" ;
+    prov:label "Original record REC_SYNTH_P_015" .
+
+entity:RECORD_REC_SYNTH_P_015_01 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_015_01" ;
+    prov:label "Original record REC_SYNTH_P_015_01" .
+
+entity:RECORD_REC_SYNTH_P_028 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_028" ;
+    prov:label "Original record REC_SYNTH_P_028" .
+
+entity:RECORD_REC_SYNTH_P_029 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_029" ;
+    prov:label "Original record REC_SYNTH_P_029" .
+
+entity:RECORD_REC_SYNTH_P_03 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_03" ;
+    prov:label "Original record REC_SYNTH_P_03" .
+
+entity:RECORD_REC_SYNTH_P_031 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_031" ;
+    prov:label "Original record REC_SYNTH_P_031" .
+
+entity:RECORD_REC_SYNTH_P_032 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_032" ;
+    prov:label "Original record REC_SYNTH_P_032" .
+
+entity:RECORD_REC_SYNTH_P_033 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_033" ;
+    prov:label "Original record REC_SYNTH_P_033" .
+
+entity:RECORD_REC_SYNTH_P_034 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_034" ;
+    prov:label "Original record REC_SYNTH_P_034" .
+
+entity:RECORD_REC_SYNTH_P_035 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_035" ;
+    prov:label "Original record REC_SYNTH_P_035" .
+
+entity:RECORD_REC_SYNTH_P_036 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_036" ;
+    prov:label "Original record REC_SYNTH_P_036" .
+
+entity:RECORD_REC_SYNTH_P_037 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_037" ;
+    prov:label "Original record REC_SYNTH_P_037" .
+
+entity:RECORD_REC_SYNTH_P_038 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_038" ;
+    prov:label "Original record REC_SYNTH_P_038" .
+
+entity:RECORD_REC_SYNTH_P_039 a prov:Entity ;
+    prov:atLocation "urn:source:record:REC_SYNTH_P_039" ;
+    prov:label "Original record REC_SYNTH_P_039" .
+
+entity:GOLDEN_000017 a ubo:Company ;
+    ubo:companyNumber "83589016" ;
+    ubo:dateIncorporated "2003-06-20"^^xsd:date ;
+    ubo:employeeCount 100 ;
+    ubo:hasAddress "230 Business Park, Oxford, United Kingdom" ;
+    ubo:hasCity "Oxford" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000017" ;
+    ubo:hasName "Dynamic Retail Enterprises" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.896612"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_001 .
+
+entity:GOLDEN_000030 a ubo:Company ;
+    ubo:companyNumber "33697407" ;
+    ubo:dateIncorporated "2021-10-06"^^xsd:date ;
+    ubo:employeeCount 250 ;
+    ubo:hasAddress "530 Business Park, Leeds, United Kingdom" ;
+    ubo:hasCity "Leeds" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000030" ;
+    ubo:hasName "Strategic Media Development Corp" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.937580"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_014 .
+
+entity:GOLDEN_000032 a ubo:Company ;
+    ubo:companyNumber "29180307" ;
+    ubo:dateIncorporated "2022-10-10"^^xsd:date ;
+    ubo:employeeCount 500 ;
+    ubo:hasAddress "711 Business Park, Bristol, United Kingdom" ;
+    ubo:hasCity "Bristol" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000032" ;
+    ubo:hasName "Strategic Telecom Ventures Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.953635"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_016 .
+
+entity:GOLDEN_000034 a ubo:Person ;
+    ubo:dateOfBirth "1981-11-16"^^xsd:date ;
+    ubo:directorCount 2 ;
+    ubo:directorOf entity:GOLDEN_000019,
+        entity:GOLDEN_000028 ;
+    ubo:hasAddress "704 Park Street, Bristol, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000028 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000034 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000019 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000034 ] ;
+    ubo:hasCity "Bristol" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000034" ;
+    ubo:hasName "Ahmed Anderson" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.953635"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_028 .
+
+entity:GOLDEN_000045 a ubo:Person ;
+    ubo:dateOfBirth "1994-09-05"^^xsd:date ;
+    ubo:directorCount 2 ;
+    ubo:directorOf entity:GOLDEN_000020,
+        entity:GOLDEN_000021 ;
+    ubo:hasAddress "729 King Street, Bristol, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000020 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000045 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000021 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000045 ] ;
+    ubo:hasCity "Bristol" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000045" ;
+    ubo:hasName "Jennifer Lewis" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.002594"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_039 .
+
+entity:GOLDEN_000049 a ubo:Company ;
+    ubo:companyNumber "39722974" ;
+    ubo:dateIncorporated "2023-09-11"^^xsd:date ;
+    ubo:employeeCount 50 ;
+    ubo:hasAddress "391 Business Park, London, United Kingdom" ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000049" ;
+    ubo:hasName "Quantum Healthcare Financial Services" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.013570"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_045 .
+
+entity:GOLDEN_000053 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF6279" ;
+    ubo:dateIncorporated "2013-02-27"^^xsd:date ;
+    ubo:employeeCount 2 ;
+    ubo:hasAddress "749 Business Park, Panama City, Panama" ;
+    ubo:hasCity "Panama City" ;
+    ubo:hasCountry "Panama" ;
+    ubo:hasGoldenId "GOLDEN_000053" ;
+    ubo:hasName "Quantum Holdings Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskFactor "SHELL_COMPANY: Offshore, 2 employees" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 30.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.028727"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_049 .
+
+entity:GOLDEN_000057 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF31711" ;
+    ubo:dateIncorporated "2009-04-07"^^xsd:date ;
+    ubo:hasAddress "820 Business Park, Nassau, Bahamas" ;
+    ubo:hasCity "Nassau" ;
+    ubo:hasCountry "Bahamas" ;
+    ubo:hasGoldenId "GOLDEN_000057" ;
+    ubo:hasName "Strategic Capital Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.044506"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_053 .
+
+entity:GOLDEN_000059 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF14128" ;
+    ubo:dateIncorporated "2020-05-30"^^xsd:date ;
+    ubo:hasAddress "912 Business Park, Dubai, United Arab Emirates" ;
+    ubo:hasCity "Dubai" ;
+    ubo:hasCountry "United Arab Emirates" ;
+    ubo:hasGoldenId "GOLDEN_000059" ;
+    ubo:hasName "Nexus Ventures Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.044506"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_055 .
+
+entity:GOLDEN_000062 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF52799" ;
+    ubo:dateIncorporated "2015-02-28"^^xsd:date ;
+    ubo:hasAddress "175 Business Park, Singapore, Singapore" ;
+    ubo:hasCity "Singapore" ;
+    ubo:hasCountry "Singapore" ;
+    ubo:hasGoldenId "GOLDEN_000062" ;
+    ubo:hasName "Elite Investments Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.060535"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_058 .
+
+entity:GOLDEN_000063 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF26617" ;
+    ubo:dateIncorporated "2021-08-22"^^xsd:date ;
+    ubo:hasAddress "766 Business Park, St. Helier, Jersey" ;
+    ubo:hasCity "St. Helier" ;
+    ubo:hasCountry "Jersey" ;
+    ubo:hasGoldenId "GOLDEN_000063" ;
+    ubo:hasName "Advanced Capital Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.060535"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_059 .
+
+entity:GOLDEN_000065 a ubo:Person ;
+    ubo:dateOfBirth "1982-03-17"^^xsd:date ;
+    ubo:directorCount 2 ;
+    ubo:directorOf entity:GOLDEN_000070,
+        entity:GOLDEN_000071 ;
+    ubo:hasAddress "12 St Stephen Green, Dublin, Ireland" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000070 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000065 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000071 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000065 ] ;
+    ubo:hasCity "Dublin" ;
+    ubo:hasCountry "Ireland" ;
+    ubo:hasGoldenId "GOLDEN_000065" ;
+    ubo:hasName "David O'Connor" ;
+    ubo:hasNationality "Irish" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000068 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 100.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:owns entity:GOLDEN_000068 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-03-01T14:15:11.865142"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_BATCH2_003 .
+
+entity:GOLDEN_000069 a ubo:Company ;
+    ubo:companyNumber "SG202300456" ;
+    ubo:dateIncorporated "2023-01-10"^^xsd:date ;
+    ubo:employeeCount 25 ;
+    ubo:hasAddress "930 Business Street, Singapore, Singapore" ;
+    ubo:hasCity "Singapore" ;
+    ubo:hasCountry "Singapore" ;
+    ubo:hasGoldenId "GOLDEN_000069" ;
+    ubo:hasName "TechVentures Singapore Pte Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-03-01T14:15:12.088781"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_BATCH2_C_003 .
+
+entity:GOLDEN_000070 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "KY998877" ;
+    ubo:dateIncorporated "2015-08-30"^^xsd:date ;
+    ubo:hasAddress "740 Business Street, George Town, Cayman Islands" ;
+    ubo:hasCity "George Town" ;
+    ubo:hasCountry "Cayman Islands" ;
+    ubo:hasGoldenId "GOLDEN_000070" ;
+    ubo:hasName "Caribbean Trading Corp" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-03-01T14:15:12.135724"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_BATCH2_C_004 .
+
+entity:GOLDEN_000004 a ubo:Person ;
+    ubo:dateOfBirth "1977-10-26"^^xsd:date ;
+    ubo:directorCount 3 ;
+    ubo:directorOf entity:GOLDEN_000020,
+        entity:GOLDEN_000023,
+        entity:GOLDEN_000050 ;
+    ubo:hasAddress "279 Main Street, Cambridge, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000020 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000004 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000023 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000004 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000050 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000004 ] ;
+    ubo:hasCity "Cambridge" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000004" ;
+    ubo:hasName "Giovanni Walker" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 3 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.849353"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_004,
+        entity:RECORD_REC_SYNTH_P_004_01,
+        entity:RECORD_REC_SYNTH_P_004_02 .
+
+entity:GOLDEN_000024 a ubo:Company ;
+    ubo:companyNumber "34260543" ;
+    ubo:dateIncorporated "2021-11-19"^^xsd:date ;
+    ubo:employeeCount 50 ;
+    ubo:hasAddress "394 Business Park, Oxford, United Kingdom" ;
+    ubo:hasCity "Oxford" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000024" ;
+    ubo:hasName "Apex Media Holdings Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.924324"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_008 .
+
+entity:GOLDEN_000027 a ubo:Company ;
+    ubo:companyNumber "93109026" ;
+    ubo:dateIncorporated "2011-06-11"^^xsd:date ;
+    ubo:employeeCount 25 ;
+    ubo:hasAddress "618 Business Park, Glasgow, United Kingdom" ;
+    ubo:hasCity "Glasgow" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000027" ;
+    ubo:hasName "Superior Property Industries Plc" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.936592"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_011 .
+
+entity:GOLDEN_000028 a ubo:Company ;
+    ubo:companyNumber "93611956" ;
+    ubo:dateIncorporated "2013-12-10"^^xsd:date ;
+    ubo:employeeCount 100 ;
+    ubo:hasAddress "526 Business Park, Edinburgh, United Kingdom" ;
+    ubo:hasCity "Edinburgh" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000028" ;
+    ubo:hasName "Pinnacle Agriculture Industries Plc" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.937580"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_012 .
+
+entity:GOLDEN_000029 a ubo:Company ;
+    ubo:companyNumber "3898221" ;
+    ubo:dateIncorporated "2012-10-11"^^xsd:date ;
+    ubo:employeeCount 50 ;
+    ubo:hasAddress "856 Business Park, Glasgow, United Kingdom" ;
+    ubo:hasCity "Glasgow" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000029" ;
+    ubo:hasName "Pinnacle Energy Investments Inc" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.937580"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_013 .
+
+entity:GOLDEN_000031 a ubo:Company ;
+    ubo:companyNumber "24618606" ;
+    ubo:dateIncorporated "2021-01-16"^^xsd:date ;
+    ubo:employeeCount 5 ;
+    ubo:hasAddress "776 Business Park, Cardiff, United Kingdom" ;
+    ubo:hasCity "Cardiff" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000031" ;
+    ubo:hasName "Vertex Property Ventures Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.937580"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_015 .
+
+entity:GOLDEN_000047 a ubo:Company ;
+    ubo:companyNumber "98562293" ;
+    ubo:dateIncorporated "2002-07-13"^^xsd:date ;
+    ubo:employeeCount 250 ;
+    ubo:hasAddress "796 Business Park, Edinburgh, United Kingdom" ;
+    ubo:hasCity "Edinburgh" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000047" ;
+    ubo:hasName "Pinnacle Manufacturing Ventures Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.009858"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_043 .
+
+entity:GOLDEN_000058 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF18271" ;
+    ubo:dateIncorporated "2015-05-15"^^xsd:date ;
+    ubo:hasAddress "807 Business Park, Hamilton, Bermuda" ;
+    ubo:hasCity "Hamilton" ;
+    ubo:hasCountry "Bermuda" ;
+    ubo:hasGoldenId "GOLDEN_000058" ;
+    ubo:hasName "Vertex Ventures Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.044506"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_054 .
+
+entity:GOLDEN_000061 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF62587" ;
+    ubo:dateIncorporated "2008-03-04"^^xsd:date ;
+    ubo:hasAddress "513 Business Park, Dubai, United Arab Emirates" ;
+    ubo:hasCity "Dubai" ;
+    ubo:hasCountry "United Arab Emirates" ;
+    ubo:hasGoldenId "GOLDEN_000061" ;
+    ubo:hasName "Vertex Holdings Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.044506"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_057 .
+
+entity:GOLDEN_000067 a ubo:Company ;
+    ubo:companyNumber "12345678" ;
+    ubo:dateIncorporated "2020-05-15"^^xsd:date ;
+    ubo:employeeCount 150 ;
+    ubo:hasAddress "919 Business Street, London, United Kingdom" ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000067" ;
+    ubo:hasName "Global Consulting Partners Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-03-01T14:15:11.976375"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_BATCH2_C_001 .
+
+entity:GOLDEN_000068 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "BVI789456" ;
+    ubo:dateIncorporated "2018-03-22"^^xsd:date ;
+    ubo:employeeCount 1 ;
+    ubo:hasAddress "208 Business Street, Road Town, British Virgin Islands" ;
+    ubo:hasCity "Road Town" ;
+    ubo:hasCountry "British Virgin Islands" ;
+    ubo:hasGoldenId "GOLDEN_000068" ;
+    ubo:hasName "Offshore Holdings BVI" ;
+    ubo:isOffshore true ;
+    ubo:riskFactor "SHELL_COMPANY: Offshore, 1 employees" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 30.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-03-01T14:15:12.024836"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_BATCH2_C_002 .
+
+entity:GOLDEN_000018 a ubo:Company ;
+    ubo:companyNumber "66226597" ;
+    ubo:dateIncorporated "2022-12-20"^^xsd:date ;
+    ubo:employeeCount 25 ;
+    ubo:hasAddress "453 Business Park, Edinburgh, United Kingdom" ;
+    ubo:hasCity "Edinburgh" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000018" ;
+    ubo:hasName "Premier Energy Consulting Group" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.896612"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_002 .
+
+entity:GOLDEN_000019 a ubo:Company ;
+    ubo:companyNumber "7882169" ;
+    ubo:dateIncorporated "2017-12-14"^^xsd:date ;
+    ubo:employeeCount 500 ;
+    ubo:hasAddress "5 Business Park, Glasgow, United Kingdom" ;
+    ubo:hasCity "Glasgow" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000019" ;
+    ubo:hasName "Global Media Resources Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.896612"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_003 .
+
+entity:GOLDEN_000020 a ubo:Company ;
+    ubo:companyNumber "40249584" ;
+    ubo:dateIncorporated "2004-09-08"^^xsd:date ;
+    ubo:employeeCount 5 ;
+    ubo:hasAddress "355 Business Park, Glasgow, United Kingdom" ;
+    ubo:hasCity "Glasgow" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000020" ;
+    ubo:hasName "Superior Retail Industries Plc" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.896612"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_004 .
+
+entity:GOLDEN_000023 a ubo:Company ;
+    ubo:companyNumber "28480778" ;
+    ubo:dateIncorporated "2005-04-04"^^xsd:date ;
+    ubo:employeeCount 50 ;
+    ubo:hasAddress "740 Business Park, Liverpool, United Kingdom" ;
+    ubo:hasCity "Liverpool" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000023" ;
+    ubo:hasName "Apex Agriculture Management Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.917056"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_007 .
+
+entity:GOLDEN_000025 a ubo:Company ;
+    ubo:companyNumber "91766772" ;
+    ubo:dateIncorporated "2000-11-28"^^xsd:date ;
+    ubo:employeeCount 5 ;
+    ubo:hasAddress "676 Business Park, Oxford, United Kingdom" ;
+    ubo:hasCity "Oxford" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000025" ;
+    ubo:hasName "Advanced Mining Group Plc" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000047 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 50.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isOffshore false ;
+    ubo:owns entity:GOLDEN_000047 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.928326"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_009 .
+
+entity:GOLDEN_000026 a ubo:Company ;
+    ubo:companyNumber "87427269" ;
+    ubo:dateIncorporated "2001-11-16"^^xsd:date ;
+    ubo:employeeCount 100 ;
+    ubo:hasAddress "349 Business Park, Cambridge, United Kingdom" ;
+    ubo:hasCity "Cambridge" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000026" ;
+    ubo:hasName "Global Agriculture Holdings Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.931646"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_01 .
+
+entity:GOLDEN_000050 a ubo:Company ;
+    ubo:companyNumber "82206761" ;
+    ubo:dateIncorporated "2014-08-12"^^xsd:date ;
+    ubo:employeeCount 500 ;
+    ubo:hasAddress "993 Business Park, Cambridge, United Kingdom" ;
+    ubo:hasCity "Cambridge" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000050" ;
+    ubo:hasName "Elite Agriculture Solutions Ltd" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000029 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 100.0 ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000071 ] ;
+    ubo:isOffshore false ;
+    ubo:owns entity:GOLDEN_000029 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.013570"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_046 .
+
+entity:GOLDEN_000055 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "OFF99244" ;
+    ubo:dateIncorporated "2003-02-27"^^xsd:date ;
+    ubo:employeeCount 1 ;
+    ubo:hasAddress "120 Business Park, Singapore, Singapore" ;
+    ubo:hasCity "Singapore" ;
+    ubo:hasCountry "Singapore" ;
+    ubo:hasGoldenId "GOLDEN_000055" ;
+    ubo:hasName "Pinnacle Capital Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskFactor "SHELL_COMPANY: Offshore, 1 employees" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 30.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:29.028727"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_051 .
+
+entity:GOLDEN_000021 a ubo:Company ;
+    ubo:companyNumber "57151457" ;
+    ubo:dateIncorporated "2013-01-15"^^xsd:date ;
+    ubo:employeeCount 250 ;
+    ubo:hasAddress "803 Business Park, London, United Kingdom" ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000021" ;
+    ubo:hasName "Strategic Tech Group Plc" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.912408"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_C_005 .
+
+entity:GOLDEN_000002 a ubo:NomineeDirector,
+        ubo:Person ;
+    ubo:dateOfBirth "1960-05-18"^^xsd:date ;
+    ubo:directorCount 12 ;
+    ubo:directorOf entity:GOLDEN_000018,
+        entity:GOLDEN_000020,
+        entity:GOLDEN_000026,
+        entity:GOLDEN_000027,
+        entity:GOLDEN_000050,
+        entity:GOLDEN_000053,
+        entity:GOLDEN_000057,
+        entity:GOLDEN_000058,
+        entity:GOLDEN_000062,
+        entity:GOLDEN_000063,
+        entity:GOLDEN_000067,
+        entity:GOLDEN_000068 ;
+    ubo:hasAddress "769 Queen Street, Beijing, China" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000057 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000053 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000050 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000068 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000027 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000018 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000026 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000020 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000062 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000067 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000058 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000063 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000002 ] ;
+    ubo:hasCity "Beijing" ;
+    ubo:hasCountry "China" ;
+    ubo:hasGoldenId "GOLDEN_000002" ;
+    ubo:hasName "Mary Baker" ;
+    ubo:hasNationality "Chinese" ;
+    ubo:isNominee true ;
+    ubo:isPEP false ;
+    ubo:riskFactor "NOMINEE_DIRECTOR: Director of 12 companies" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 35.0 ;
+    ubo:sourceCount 16 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.833327"^^xsd:dateTime ;
+    prov:invalidatedAtTime "2026-03-01T14:15:11.732507"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_BATCH2_001,
+        entity:RECORD_REC_SYNTH_P_002,
+        entity:RECORD_REC_SYNTH_P_002_01,
+        entity:RECORD_REC_SYNTH_P_002_02,
+        entity:RECORD_REC_SYNTH_P_002_03,
+        entity:RECORD_REC_SYNTH_P_002_04,
+        entity:RECORD_REC_SYNTH_P_002_05,
+        entity:RECORD_REC_SYNTH_P_002_06,
+        entity:RECORD_REC_SYNTH_P_002_07,
+        entity:RECORD_REC_SYNTH_P_002_08,
+        entity:RECORD_REC_SYNTH_P_002_09,
+        entity:RECORD_REC_SYNTH_P_002_1,
+        entity:RECORD_REC_SYNTH_P_002_11,
+        entity:RECORD_REC_SYNTH_P_002_12,
+        entity:RECORD_REC_SYNTH_P_002_13,
+        entity:RECORD_REC_SYNTH_P_002_14 .
+
+entity:GOLDEN_000013 a ubo:NomineeDirector,
+        ubo:Person ;
+    ubo:dateOfBirth "1995-10-04"^^xsd:date ;
+    ubo:directorCount 12 ;
+    ubo:directorOf entity:GOLDEN_000018,
+        entity:GOLDEN_000019,
+        entity:GOLDEN_000021,
+        entity:GOLDEN_000023,
+        entity:GOLDEN_000024,
+        entity:GOLDEN_000025,
+        entity:GOLDEN_000026,
+        entity:GOLDEN_000028,
+        entity:GOLDEN_000047,
+        entity:GOLDEN_000049,
+        entity:GOLDEN_000055,
+        entity:GOLDEN_000061 ;
+    ubo:hasAddress "353 Queen Street, Manchester, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000021 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000049 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000019 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000061 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000018 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000055 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000025 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000047 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000024 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000028 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000026 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000023 ;
+            ubo:isActive true ;
+            ubo:role "director" ;
+            prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+            prov:wasDerivedFrom entity:GOLDEN_000013 ] ;
+    ubo:hasCity "Manchester" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000013" ;
+    ubo:hasName "Greta Nguyen" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee true ;
+    ubo:isPEP false ;
+    ubo:riskFactor "NOMINEE_DIRECTOR: Director of 12 companies" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 35.0 ;
+    ubo:sourceCount 16 ;
+    prov:generatedAtTime "2026-02-28T09:20:28.880853"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_SYNTH_P_013,
+        entity:RECORD_REC_SYNTH_P_013_01,
+        entity:RECORD_REC_SYNTH_P_013_02,
+        entity:RECORD_REC_SYNTH_P_013_03,
+        entity:RECORD_REC_SYNTH_P_013_04,
+        entity:RECORD_REC_SYNTH_P_013_05,
+        entity:RECORD_REC_SYNTH_P_013_06,
+        entity:RECORD_REC_SYNTH_P_013_07,
+        entity:RECORD_REC_SYNTH_P_013_08,
+        entity:RECORD_REC_SYNTH_P_013_09,
+        entity:RECORD_REC_SYNTH_P_013_1,
+        entity:RECORD_REC_SYNTH_P_013_11,
+        entity:RECORD_REC_SYNTH_P_013_12,
+        entity:RECORD_REC_SYNTH_P_013_13,
+        entity:RECORD_REC_SYNTH_P_013_14,
+        entity:RECORD_REC_SYNTH_P_013_15 .
+
+entity:GOLDEN_000071 a ubo:Company ;
+    ubo:companyNumber "DE456789012" ;
+    ubo:dateIncorporated "2019-11-12"^^xsd:date ;
+    ubo:employeeCount 500 ;
+    ubo:hasAddress "742 Business Street, Berlin, Germany" ;
+    ubo:hasCity "Berlin" ;
+    ubo:hasCountry "Germany" ;
+    ubo:hasGoldenId "GOLDEN_000071" ;
+    ubo:hasName "European Energy Solutions GmbH" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 ;
+    prov:generatedAtTime "2026-03-01T14:15:12.180483"^^xsd:dateTime ;
+    prov:wasAttributedTo <urn:pipeline:ubo-graph-v1> ;
+    prov:wasDerivedFrom entity:RECORD_REC_BATCH2_C_005 .
+

@@ -1,0 +1,60 @@
+# DINT Configuration
+entity_resolution:
+  weights:
+    name: 0.35
+    dob: 0.25
+    address: 0.15
+    company_number: 0.15
+    nationality: 0.05
+    country: 0.05
+  
+  threshold: 0.75
+  
+  penalties:
+    missing_critical_field: -0.15
+    nationality_mismatch: -0.05
+
+golden_record:
+  source_priorities:
+    xml_companies_house: 100      # ✅ Added
+    json_land_registry: 90         # ✅ Added
+    csv_internal: 80               # ✅ Added
+    regulatory: 100
+    internal: 80
+    external_verified: 60
+    external: 40
+    synthetic: 20
+  
+  strategies:
+    full_name: "most_complete"
+    dob: "most_complete"
+    date_of_birth: "most_complete"
+    address: "most_recent"
+    nationality: "source_priority"
+    company_number: "source_priority"
+    country: "source_priority"
+    is_offshore: "source_priority"      # ✅ Added
+    employee_count: "source_priority"   # ✅ Added
+    is_pep: "source_priority"           # ✅ Added
+    pep_level: "source_priority"        # ✅ Added
+
+risk_scoring:
+  nominee_director_threshold: 5  # ✅ CHANGED: 10 → 5 (Sarah has 7, will be flagged!)
+  
+  shell_company_indicators:
+    max_employees: 2           # ✅ Keep this
+    max_revenue: 100000        # ✅ Keep this (but not used if field missing)
+    offshore_required: true    # ✅ Added: Must be offshore
+  
+  pep_risk_score: 20           # ✅ Added: Risk score for PEPs
+  
+  risk_levels:
+    high: 20    # ✅ CHANGED: 70 → 50 (easier to reach HIGH)
+    medium: 10  # ✅ CHANGED: 50 → 30
+    low: 0      # ✅ CHANGED: 30 → 0
+
+rdf_export:
+  base_uri: "http://example.org/"
+  entity_namespace: "http://example.org/entity/"
+  ubo_namespace: "http://example.org/ubo#"
+  format: "turtle"

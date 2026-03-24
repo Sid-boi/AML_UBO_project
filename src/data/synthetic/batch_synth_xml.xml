@@ -1,0 +1,622 @@
+<?xml version="1.0" ?>
+<records>
+  <record>
+    <record_id>REC_SYNTH_P_016</record_id>
+    <entity_id>ENT_PERSON_016</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Jennifer Baker</full_name>
+    <dob>1990-05-28</dob>
+    <address>591 High Street, New York, China</address>
+    <nationality>Chinese</nationality>
+    <city>New York</city>
+    <country>China</country>
+    <is_pep>False</is_pep>
+    <director_of_entity_ids>ENT_COMPANY_021</director_of_entity_ids>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_017</record_id>
+    <entity_id>ENT_PERSON_017</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>James Taylor</full_name>
+    <dob>1956-12-13</dob>
+    <address>648 Main Street, Cambridge, United Kingdom</address>
+    <nationality>British</nationality>
+    <city>Cambridge</city>
+    <country>United Kingdom</country>
+    <is_pep>False</is_pep>
+    <director_of_entity_ids>ENT_COMPANY_038</director_of_entity_ids>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_018</record_id>
+    <entity_id>ENT_PERSON_018</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Karen Davis</full_name>
+    <dob>1963-04-14</dob>
+    <address>173 High Street, Beijing, France</address>
+    <nationality>German</nationality>
+    <city>Beijing</city>
+    <country>France</country>
+    <is_pep>False</is_pep>
+    <director_of_entity_ids>ENT_COMPANY_029;ENT_COMPANY_016;ENT_COMPANY_018</director_of_entity_ids>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_019</record_id>
+    <entity_id>ENT_PERSON_019</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Mary Thompson</full_name>
+    <dob>1978-12-14</dob>
+    <address>886 Park Street, Berlin, India</address>
+    <nationality>German</nationality>
+    <city>Berlin</city>
+    <country>India</country>
+    <is_pep>False</is_pep>
+    <director_of_entity_ids>ENT_COMPANY_047;ENT_COMPANY_022</director_of_entity_ids>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_020</record_id>
+    <entity_id>ENT_PERSON_020</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Mary Lee</full_name>
+    <dob>1953-01-23</dob>
+    <address>223 High Street, New York, USA</address>
+    <nationality>American</nationality>
+    <city>New York</city>
+    <country>USA</country>
+    <is_pep>False</is_pep>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_021</record_id>
+    <entity_id>ENT_PERSON_021</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Richard White</full_name>
+    <dob>1981-04-23</dob>
+    <address>350 Park Street, Cambridge, United Kingdom</address>
+    <nationality>British</nationality>
+    <city>Cambridge</city>
+    <country>United Kingdom</country>
+    <is_pep>False</is_pep>
+    <director_of_entity_ids>ENT_COMPANY_051;ENT_COMPANY_036;ENT_COMPANY_038;ENT_COMPANY_000;ENT_COMPANY_014;ENT_COMPANY_056;ENT_COMPANY_029;ENT_COMPANY_031;ENT_COMPANY_058;ENT_COMPANY_025;ENT_COMPANY_027;ENT_COMPANY_055;ENT_COMPANY_015;ENT_COMPANY_052;ENT_COMPANY_001</director_of_entity_ids>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_022</record_id>
+    <entity_id>ENT_PERSON_022</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Ali Wilson</full_name>
+    <dob>1957-06-11</dob>
+    <address>933 Queen Street, Moscow, Germany</address>
+    <nationality>Russian</nationality>
+    <city>Moscow</city>
+    <country>Germany</country>
+    <is_pep>False</is_pep>
+    <director_of_entity_ids>ENT_COMPANY_052;ENT_COMPANY_006</director_of_entity_ids>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_023</record_id>
+    <entity_id>ENT_PERSON_023</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Fatima Brown</full_name>
+    <dob>1957-05-06</dob>
+    <address>175 Queen Street, Newcastle, United Kingdom</address>
+    <nationality>British</nationality>
+    <city>Newcastle</city>
+    <country>United Kingdom</country>
+    <is_pep>False</is_pep>
+    <director_of_entity_ids>ENT_COMPANY_049</director_of_entity_ids>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_024</record_id>
+    <entity_id>ENT_PERSON_024</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Sarah Lewis</full_name>
+    <dob>1961-09-18</dob>
+    <address>614 King Street, Paris, Russia</address>
+    <nationality>Russian</nationality>
+    <city>Paris</city>
+    <country>Russia</country>
+    <is_pep>False</is_pep>
+    <director_of_entity_ids>ENT_COMPANY_036;ENT_COMPANY_031</director_of_entity_ids>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_025</record_id>
+    <entity_id>ENT_PERSON_025</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Francesca Walker</full_name>
+    <dob>1964-02-02</dob>
+    <address>284 King Street, Newcastle, United Kingdom</address>
+    <nationality>British</nationality>
+    <city>Newcastle</city>
+    <country>United Kingdom</country>
+    <is_pep>True</is_pep>
+    <pep_level>parliament_member</pep_level>
+    <director_of_entity_ids>ENT_COMPANY_001</director_of_entity_ids>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_026</record_id>
+    <entity_id>ENT_PERSON_026</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Dmitri Nelson</full_name>
+    <dob>1985-09-11</dob>
+    <address>348 High Street, Mumbai, India</address>
+    <nationality>German</nationality>
+    <city>Mumbai</city>
+    <country>India</country>
+    <is_pep>False</is_pep>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_P_027</record_id>
+    <entity_id>ENT_PERSON_027</entity_id>
+    <entity_type>person</entity_type>
+    <full_name>Greta Allen</full_name>
+    <dob>1956-05-19</dob>
+    <address>243 Park Street, Oxford, United Kingdom</address>
+    <nationality>British</nationality>
+    <city>Oxford</city>
+    <country>United Kingdom</country>
+    <is_pep>False</is_pep>
+    <director_of_entity_ids>ENT_COMPANY_058</director_of_entity_ids>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_018</record_id>
+    <entity_id>ENT_COMPANY_018</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Vertex Tech Consulting Group</full_name>
+    <address>439 Business Park, Birmingham, United Kingdom</address>
+    <city>Birmingham</city>
+    <country>United Kingdom</country>
+    <company_number>43666116</company_number>
+    <date_incorporated>2003-08-27</date_incorporated>
+    <employee_count>5</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_041</owned_by_entity_id>
+    <ownership_percentage>50</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_019</record_id>
+    <entity_id>ENT_COMPANY_019</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Premier Media Enterprises</full_name>
+    <address>275 Business Park, Leeds, United Kingdom</address>
+    <city>Leeds</city>
+    <country>United Kingdom</country>
+    <company_number>94569076</company_number>
+    <date_incorporated>2012-03-27</date_incorporated>
+    <employee_count>25</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_031</owned_by_entity_id>
+    <ownership_percentage>50</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_020</record_id>
+    <entity_id>ENT_COMPANY_020</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Premier Media Corporation</full_name>
+    <address>564 Business Park, Birmingham, United Kingdom</address>
+    <city>Birmingham</city>
+    <country>United Kingdom</country>
+    <company_number>15224106</company_number>
+    <date_incorporated>2015-09-16</date_incorporated>
+    <employee_count>250</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_044</owned_by_entity_id>
+    <ownership_percentage>80</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_021</record_id>
+    <entity_id>ENT_COMPANY_021</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Premier Mining Technologies Inc</full_name>
+    <address>404 Business Park, Manchester, United Kingdom</address>
+    <city>Manchester</city>
+    <country>United Kingdom</country>
+    <company_number>11685672</company_number>
+    <date_incorporated>2011-11-05</date_incorporated>
+    <employee_count>100</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_029</owned_by_entity_id>
+    <ownership_percentage>80</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_022</record_id>
+    <entity_id>ENT_COMPANY_022</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Paramount Tech Financial Services</full_name>
+    <address>90 Business Park, Newcastle, United Kingdom</address>
+    <city>Newcastle</city>
+    <country>United Kingdom</country>
+    <company_number>80007937</company_number>
+    <date_incorporated>2003-12-07</date_incorporated>
+    <employee_count>25</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_015</owned_by_entity_id>
+    <ownership_percentage>80</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_023</record_id>
+    <entity_id>ENT_COMPANY_023</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Quantum Retail Solutions Ltd</full_name>
+    <address>506 Business Park, Liverpool, United Kingdom</address>
+    <city>Liverpool</city>
+    <country>United Kingdom</country>
+    <company_number>15839507</company_number>
+    <date_incorporated>2016-12-28</date_incorporated>
+    <employee_count>10</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_053</owned_by_entity_id>
+    <ownership_percentage>75</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_024</record_id>
+    <entity_id>ENT_COMPANY_024</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Nexus Tech Solutions Ltd</full_name>
+    <address>3 Business Park, Birmingham, United Kingdom</address>
+    <city>Birmingham</city>
+    <country>United Kingdom</country>
+    <company_number>86351977</company_number>
+    <date_incorporated>2009-03-24</date_incorporated>
+    <employee_count>100</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_020</owned_by_entity_id>
+    <ownership_percentage>51</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_025</record_id>
+    <entity_id>ENT_COMPANY_025</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Zenith Logistics Technologies Inc</full_name>
+    <address>401 Business Park, Glasgow, United Kingdom</address>
+    <city>Glasgow</city>
+    <country>United Kingdom</country>
+    <company_number>28289734</company_number>
+    <date_incorporated>2004-03-05</date_incorporated>
+    <employee_count>25</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_039</owned_by_entity_id>
+    <ownership_percentage>75</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_026</record_id>
+    <entity_id>ENT_COMPANY_026</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Superior Property Capital Partners</full_name>
+    <address>230 Business Park, Birmingham, United Kingdom</address>
+    <city>Birmingham</city>
+    <country>United Kingdom</country>
+    <company_number>23149790</company_number>
+    <date_incorporated>2008-07-17</date_incorporated>
+    <employee_count>50</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_040</owned_by_entity_id>
+    <ownership_percentage>50</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_027</record_id>
+    <entity_id>ENT_COMPANY_027</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>United Manufacturing Capital Partners</full_name>
+    <address>612 Business Park, Bristol, United Kingdom</address>
+    <city>Bristol</city>
+    <country>United Kingdom</country>
+    <company_number>68755640</company_number>
+    <date_incorporated>2015-03-05</date_incorporated>
+    <employee_count>25</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_002</owned_by_entity_id>
+    <ownership_percentage>25</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_028</record_id>
+    <entity_id>ENT_COMPANY_028</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Zenith Manufacturing Technologies Inc</full_name>
+    <address>989 Business Park, Birmingham, United Kingdom</address>
+    <city>Birmingham</city>
+    <country>United Kingdom</country>
+    <company_number>52670922</company_number>
+    <date_incorporated>2006-04-19</date_incorporated>
+    <employee_count>25</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_000</owned_by_entity_id>
+    <ownership_percentage>40</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_029</record_id>
+    <entity_id>ENT_COMPANY_029</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Paramount Manufacturing Services Limited</full_name>
+    <address>766 Business Park, Oxford, United Kingdom</address>
+    <city>Oxford</city>
+    <country>United Kingdom</country>
+    <company_number>17186632</company_number>
+    <date_incorporated>2005-06-08</date_incorporated>
+    <employee_count>15</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_010</owned_by_entity_id>
+    <ownership_percentage>25</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_030</record_id>
+    <entity_id>ENT_COMPANY_030</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Global Logistics Services Limited</full_name>
+    <address>592 Business Park, Birmingham, United Kingdom</address>
+    <city>Birmingham</city>
+    <country>United Kingdom</country>
+    <company_number>57177443</company_number>
+    <date_incorporated>2004-05-08</date_incorporated>
+    <employee_count>5</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_026</owned_by_entity_id>
+    <ownership_percentage>80</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_031</record_id>
+    <entity_id>ENT_COMPANY_031</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Dynamic Energy Ventures Ltd</full_name>
+    <address>296 Business Park, Birmingham, United Kingdom</address>
+    <city>Birmingham</city>
+    <country>United Kingdom</country>
+    <company_number>66009402</company_number>
+    <date_incorporated>2023-04-06</date_incorporated>
+    <employee_count>25</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_019</owned_by_entity_id>
+    <ownership_percentage>50</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_032</record_id>
+    <entity_id>ENT_COMPANY_032</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Pinnacle Logistics Industries Plc</full_name>
+    <address>893 Business Park, Leeds, United Kingdom</address>
+    <city>Leeds</city>
+    <country>United Kingdom</country>
+    <company_number>72661566</company_number>
+    <date_incorporated>2002-09-14</date_incorporated>
+    <employee_count>50</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_004</owned_by_entity_id>
+    <ownership_percentage>50</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_033</record_id>
+    <entity_id>ENT_COMPANY_033</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Superior Retail Group Plc</full_name>
+    <address>980 Business Park, Bristol, United Kingdom</address>
+    <city>Bristol</city>
+    <country>United Kingdom</country>
+    <company_number>15347841</company_number>
+    <date_incorporated>2020-01-07</date_incorporated>
+    <employee_count>10</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_008</owned_by_entity_id>
+    <ownership_percentage>25</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_034</record_id>
+    <entity_id>ENT_COMPANY_034</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Horizon Finance Corporation</full_name>
+    <address>407 Business Park, Newcastle, United Kingdom</address>
+    <city>Newcastle</city>
+    <country>United Kingdom</country>
+    <company_number>51811356</company_number>
+    <date_incorporated>2022-01-16</date_incorporated>
+    <employee_count>5</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_005</owned_by_entity_id>
+    <ownership_percentage>30</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_035</record_id>
+    <entity_id>ENT_COMPANY_035</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Apex Healthcare Industries Plc</full_name>
+    <address>831 Business Park, Glasgow, United Kingdom</address>
+    <city>Glasgow</city>
+    <country>United Kingdom</country>
+    <company_number>89869686</company_number>
+    <date_incorporated>2006-09-24</date_incorporated>
+    <employee_count>50</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_PERSON_038</owned_by_entity_id>
+    <ownership_percentage>80</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_036</record_id>
+    <entity_id>ENT_COMPANY_036</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Advanced Healthcare Financial Services</full_name>
+    <address>165 Business Park, Birmingham, United Kingdom</address>
+    <city>Birmingham</city>
+    <country>United Kingdom</country>
+    <company_number>23244135</company_number>
+    <date_incorporated>2012-10-22</date_incorporated>
+    <employee_count>250</employee_count>
+    <is_offshore>False</is_offshore>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_037</record_id>
+    <entity_id>ENT_COMPANY_037</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Global Mining Industries Plc</full_name>
+    <address>329 Business Park, Oxford, United Kingdom</address>
+    <city>Oxford</city>
+    <country>United Kingdom</country>
+    <company_number>38370295</company_number>
+    <date_incorporated>2015-12-02</date_incorporated>
+    <employee_count>250</employee_count>
+    <is_offshore>False</is_offshore>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_038</record_id>
+    <entity_id>ENT_COMPANY_038</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Strategic Tech Resources Ltd</full_name>
+    <address>854 Business Park, Edinburgh, United Kingdom</address>
+    <city>Edinburgh</city>
+    <country>United Kingdom</country>
+    <company_number>34109338</company_number>
+    <date_incorporated>2021-07-10</date_incorporated>
+    <employee_count>5</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_046</owned_by_entity_id>
+    <ownership_percentage>50</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_039</record_id>
+    <entity_id>ENT_COMPANY_039</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Dynamic Tech Financial Services</full_name>
+    <address>456 Business Park, Edinburgh, United Kingdom</address>
+    <city>Edinburgh</city>
+    <country>United Kingdom</country>
+    <company_number>46467359</company_number>
+    <date_incorporated>2023-04-14</date_incorporated>
+    <employee_count>25</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_044</owned_by_entity_id>
+    <ownership_percentage>75</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_040</record_id>
+    <entity_id>ENT_COMPANY_040</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Nexus Retail Consulting Group</full_name>
+    <address>44 Business Park, London, United Kingdom</address>
+    <city>London</city>
+    <country>United Kingdom</country>
+    <company_number>43634462</company_number>
+    <date_incorporated>2001-06-15</date_incorporated>
+    <employee_count>25</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_026</owned_by_entity_id>
+    <ownership_percentage>50</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+  <record>
+    <record_id>REC_SYNTH_C_041</record_id>
+    <entity_id>ENT_COMPANY_041</entity_id>
+    <entity_type>company</entity_type>
+    <full_name>Apex Agriculture Enterprises</full_name>
+    <address>460 Business Park, Liverpool, United Kingdom</address>
+    <city>Liverpool</city>
+    <country>United Kingdom</country>
+    <company_number>84221970</company_number>
+    <date_incorporated>2008-08-22</date_incorporated>
+    <employee_count>25</employee_count>
+    <is_offshore>False</is_offshore>
+    <owned_by_entity_id>ENT_COMPANY_008</owned_by_entity_id>
+    <ownership_percentage>75</ownership_percentage>
+    <source>synthetic_data</source>
+    <source_type>xml_synthetic</source_type>
+    <ingested_at>2026-02-28T07:51:06.244102</ingested_at>
+  </record>
+</records>

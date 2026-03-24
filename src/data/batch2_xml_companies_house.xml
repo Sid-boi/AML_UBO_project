@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompaniesHouseData>
+  <ExportDate>2024-02-08</ExportDate>
+  <RecordCount>12</RecordCount>
+  
+  <!-- Person 1: Alice (DUPLICATE - tests matching) -->
+  <Person>
+    <FullName>A. M. Johnson</FullName>
+    <DateOfBirth>1985-03-15</DateOfBirth>
+    <Nationality>British</Nationality>
+    <IsPEP>false</IsPEP>
+    <Address>
+      <Line1>10 Oak Street</Line1>
+      <City>London</City>
+      <Country>United Kingdom</Country>
+    </Address>
+    <DirectorOf>
+      <CompanyNumber>12345678</CompanyNumber>
+      <CompanyNumber>87654321</CompanyNumber>
+    </DirectorOf>
+  </Person>
+  
+  <!-- Person 2: Bob (DUPLICATE + PEP status) -->
+  <Person>
+    <FullName>Robert Wilson</FullName>
+    <DateOfBirth>1965-08-20</DateOfBirth>
+    <Nationality>British</Nationality>
+    <IsPEP>true</IsPEP>
+    <PEPLevel>diplomat</PEPLevel>
+    <Position>Former British Ambassador to France</Position>
+    <StartDate>2010-01-15</StartDate>
+    <EndDate>2015-06-30</EndDate>
+    <Address>
+      <Line1>15 Diplomatic Drive</Line1>
+      <City>London</City>
+      <Country>United Kingdom</Country>
+    </Address>
+  </Person>
+  
+  <!-- Person 3: New person (Edward) -->
+  <Person>
+    <FullName>Edward Thompson</FullName>
+    <DateOfBirth>1975-04-20</DateOfBirth>
+    <Nationality>British</Nationality>
+    <IsPEP>true</IsPEP>
+    <PEPLevel>judge</PEPLevel>
+    <Position>High Court Judge</Position>
+    <StartDate>2018-09-01</StartDate>
+    <Address>
+      <Line1>Royal Courts of Justice</Line1>
+      <City>London</City>
+      <Country>United Kingdom</Country>
+    </Address>
+    <DirectorOf>
+      <CompanyNumber>55667788</CompanyNumber>
+    </DirectorOf>
+  </Person>
+  
+  <!-- Company 1: TechStart (DUPLICATE - with more details) -->
+  <Company>
+    <CompanyNumber>12345678</CompanyNumber>
+    <CompanyName>TechStart Limited</CompanyName>
+    <IncorporationDate>2020-05-10</IncorporationDate>
+    <EmployeeCount>15</EmployeeCount>
+    <IsOffshore>false</IsOffshore>
+    <Address>
+      <Line1>100 Silicon Road</Line1>
+      <City>London</City>
+      <Country>United Kingdom</Country>
+    </Address>
+    <OwnedBy>
+      <EntityID>ENT_BOB_19650820</EntityID>
+      <Percentage>25.0</Percentage>
+    </OwnedBy>
+  </Company>
+  
+  <!-- Company 2: DataCorp (DUPLICATE - updates ownership) -->
+  <Company>
+    <CompanyNumber>87654321</CompanyNumber>
+    <CompanyName>DataCorp Holdings Ltd</CompanyName>
+    <IncorporationDate>2018-03-15</IncorporationDate>
+    <EmployeeCount>50</EmployeeCount>
+    <IsOffshore>false</IsOffshore>
+    <Address>
+      <Line1>200 Data Lane</Line1>
+      <City>Birmingham</City>
+      <Country>United Kingdom</Country>
+    </Address>
+    <OwnedBy>
+      <EntityID>ENT_ALICE_19850315</EntityID>
+      <Percentage>75.5</Percentage>
+    </OwnedBy>
+  </Company>
+  
+  <!-- Company 3: New offshore shell company -->
+  <Company>
+    <CompanyNumber>CAYMAN001</CompanyNumber>
+    <CompanyName>Offshore Ventures Inc</CompanyName>
+    <IncorporationDate>2015-01-01</IncorporationDate>
+    <EmployeeCount>0</EmployeeCount>
+    <IsOffshore>true</IsOffshore>
+    <Address>
+      <City>George Town</City>
+      <Country>Cayman Islands</Country>
+    </Address>
+    <OwnedBy>
+      <EntityID>ENT_ALICE_19850315</EntityID>
+      <Percentage>100.0</Percentage>
+    </OwnedBy>
+  </Company>
+  
+  <!-- Company 4: FinTech (more details) -->
+  <Company>
+    <CompanyNumber>55667788</CompanyNumber>
+    <CompanyName>FinTech Innovations Ltd</CompanyName>
+    <IncorporationDate>2022-08-15</IncorporationDate>
+    <EmployeeCount>30</EmployeeCount>
+    <IsOffshore>false</IsOffshore>
+    <Address>
+      <Line1>500 Finance Avenue</Line1>
+      <City>Edinburgh</City>
+      <Country>United Kingdom</Country>
+    </Address>
+    <OwnedBy>
+      <EntityID>ENT_CHARLIE_19920711</EntityID>
+      <Percentage>60.0</Percentage>
+    </OwnedBy>
+  </Company>
+  
+  <!-- Company 5: Global Holdings (DUPLICATE from CSV) -->
+  <Company>
+    <CompanyNumber>11111111</CompanyNumber>
+    <CompanyName>Global Holdings Limited</CompanyName>
+    <IncorporationDate>2015-01-01</IncorporationDate>
+    <EmployeeCount>0</EmployeeCount>
+    <IsOffshore>true</IsOffshore>
+    <Address>
+      <City>George Town</City>
+      <Country>Cayman Islands</Country>
+    </Address>
+    <OwnedBy>
+      <EntityID>ENT_ALICE_19850315</EntityID>
+      <Percentage>100.0</Percentage>
+    </OwnedBy>
+  </Company>
+  
+  <!-- Company 6: GreenEnergy (new ownership info) -->
+  <Company>
+    <CompanyNumber>99887766</CompanyNumber>
+    <CompanyName>GreenEnergy Solutions Plc</CompanyName>
+    <IncorporationDate>2019-06-30</IncorporationDate>
+    <EmployeeCount>25</EmployeeCount>
+    <IsOffshore>false</IsOffshore>
+    <Address>
+      <Line1>300 Eco Street</Line1>
+      <City>Oxford</City>
+      <Country>United Kingdom</Country>
+    </Address>
+    <OwnedBy>
+      <EntityID>ENT_CO_87654321</EntityID>
+      <Percentage>80.0</Percentage>
+    </OwnedBy>
+  </Company>
+  
+  <!-- Person 4: Nominee director pattern -->
+  <Person>
+    <FullName>Sarah Nominee</FullName>
+    <DateOfBirth>1980-12-01</DateOfBirth>
+    <Nationality>British</Nationality>
+    <IsPEP>false</IsPEP>
+    <Address>
+      <Line1>Corporate Services Ltd</Line1>
+      <City>London</City>
+      <Country>United Kingdom</Country>
+    </Address>
+    <DirectorOf>
+      <CompanyNumber>12345678</CompanyNumber>
+      <CompanyNumber>87654321</CompanyNumber>
+      <CompanyNumber>55667788</CompanyNumber>
+      <CompanyNumber>99887766</CompanyNumber>
+      <CompanyNumber>22334455</CompanyNumber>
+      <CompanyNumber>11111111</CompanyNumber>
+      <CompanyNumber>CAYMAN001</CompanyNumber>
+    </DirectorOf>
+  </Person>
+  
+  <!-- Company 7: Property Investments (DUPLICATE) -->
+  <Company>
+    <CompanyNumber>22334455</CompanyNumber>
+    <CompanyName>Property Investments Limited</CompanyName>
+    <IncorporationDate>2017-11-10</IncorporationDate>
+    <EmployeeCount>5</EmployeeCount>
+    <IsOffshore>false</IsOffshore>
+    <Address>
+      <Line1>400 Real Estate Road</Line1>
+      <City>Leeds</City>
+      <Country>United Kingdom</Country>
+    </Address>
+    <OwnedBy>
+      <EntityID>ENT_DIANA_19831105</EntityID>
+      <Percentage>45.0</Percentage>
+    </OwnedBy>
+  </Company>
+  
+  <!-- Person 5: Test abbreviation matching -->
+  <Person>
+    <FullName>C. Brown</FullName>
+    <DateOfBirth>1992-07-11</DateOfBirth>
+    <Nationality>American</Nationality>
+    <IsPEP>false</IsPEP>
+    <Address>
+      <Line1>22 Elm Avenue</Line1>
+      <City>Manchester</City>
+      <Country>United Kingdom</Country>
+    </Address>
+  </Person>
+</CompaniesHouseData>

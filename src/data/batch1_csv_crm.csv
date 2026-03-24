@@ -1,0 +1,11 @@
+record_id,entity_id,entity_type,full_name,dob,address,nationality,source,source_type,ingested_at,owned_by_entity_id,ownership_percentage,director_of_entity_ids,company_number
+REC_CSV_001,ENT_ALICE_19850315,person,Alice Johnson,1985-03-15,10 Oak Street London,British,internal_crm,csv_internal,2024-02-01T10:00:00,,,ENT_CO_12345678;ENT_CO_87654321;ENT_CO_99887766,
+REC_CSV_002,ENT_CO_12345678,company,TechStart Ltd,,,,internal_crm,csv_internal,2024-02-01T10:00:00,,,,12345678
+REC_CSV_003,ENT_CO_87654321,company,DataCorp Holdings,,,,internal_crm,csv_internal,2024-02-01T10:00:00,ENT_ALICE_19850315,75.5,,87654321
+REC_CSV_004,ENT_BOB_19650820,person,Bob Wilson,1965-08-20,15 Diplomatic Drive London,British,internal_crm,csv_internal,2024-02-01T10:00:00,,,,
+REC_CSV_005,ENT_CO_99887766,company,GreenEnergy Solutions,,,,internal_crm,csv_internal,2024-02-01T10:00:00,,,,99887766
+REC_CSV_006,ENT_CHARLIE_19920711,person,Charlie Brown,1992-07-11,22 Elm Avenue Manchester,American,internal_crm,csv_internal,2024-02-01T10:00:00,,,ENT_CO_87654321,
+REC_CSV_007,ENT_CO_55667788,company,FinTech Innovations,,,,internal_crm,csv_internal,2024-02-01T10:00:00,ENT_CHARLIE_19920711,60.0,,55667788
+REC_CSV_008,ENT_DIANA_19831105,person,Diana Prince,1983-11-05,Parliament Square London,British,internal_crm,csv_internal,2024-02-01T10:00:00,,,,
+REC_CSV_009,ENT_CO_22334455,company,Property Investments Ltd,,,,internal_crm,csv_internal,2024-02-01T10:00:00,ENT_DIANA_19831105,45.0,,22334455
+REC_CSV_010,ENT_CO_11111111,company,Global Holdings Ltd,,Cayman Islands,,internal_crm,csv_internal,2024-02-01T10:00:00,ENT_ALICE_19850315,100.0,,11111111

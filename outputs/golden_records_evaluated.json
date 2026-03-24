@@ -1,0 +1,1315 @@
+{
+  "records": {
+    "GOLDEN_000000": {
+      "entity_type": "person",
+      "ownership_percentage": NaN,
+      "address": "10 Oak Street, London, United Kingdom",
+      "pep_level": "diplomat",
+      "director_of_entity_ids": "ENT_CO_99887766",
+      "country": "United Kingdom",
+      "is_pep": true,
+      "dob": "1985-03-15",
+      "city": "London",
+      "nationality": "British",
+      "employee_count": NaN,
+      "source_type": "json_land_registry",
+      "full_name": "Alice M. Johnson",
+      "golden_id": "GOLDEN_000000",
+      "source_record_ids": [
+        "BATCH_20260226_121921_REC_000000",
+        "REC_CSV_001_02",
+        "REC_CSV_001_01",
+        "BATCH_20260226_121921_REC_000001",
+        "REC_CSV_001"
+      ],
+      "source_records": [
+        {
+          "record_id": "BATCH_20260226_121921_REC_000000",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": null,
+          "entity_type": "person",
+          "full_name": "Alice M. Johnson",
+          "dob": "1985-03-15",
+          "nationality": "British",
+          "address": "10 Oak Street, London, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": false,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": "London",
+          "country": "United Kingdom",
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "REC_CSV_001_02",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_ALICE_19850315",
+          "entity_type": "person",
+          "full_name": "Alice Johnson",
+          "dob": "1985-03-15",
+          "nationality": "British",
+          "address": "10 Oak Street London",
+          "director_of_entity_ids": "ENT_CO_99887766",
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "REC_CSV_001_01",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_ALICE_19850315",
+          "entity_type": "person",
+          "full_name": "Alice Johnson",
+          "dob": "1985-03-15",
+          "nationality": "British",
+          "address": "10 Oak Street London",
+          "director_of_entity_ids": "ENT_CO_87654321",
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "BATCH_20260226_121921_REC_000001",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_FRANK_19881203",
+          "entity_type": "person",
+          "full_name": "Frank Miller",
+          "dob": "1988-12-03",
+          "nationality": "American",
+          "address": "US Embassy, London, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": true,
+          "pep_level": "diplomat",
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": "London",
+          "country": "United Kingdom",
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "REC_CSV_001",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_ALICE_19850315",
+          "entity_type": "person",
+          "full_name": "Alice Johnson",
+          "dob": "1985-03-15",
+          "nationality": "British",
+          "address": "10 Oak Street London",
+          "director_of_entity_ids": "ENT_CO_12345678",
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        }
+      ],
+      "source_count": 5,
+      "created_at": "2026-02-26T12:23:12.572514",
+      "blocking_key": "P:J:1985-03-15",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [
+        {
+          "entity_id": "GOLDEN_000002",
+          "percentage": 75.5
+        },
+        {
+          "entity_id": "GOLDEN_000005",
+          "percentage": 51.0
+        },
+        {
+          "entity_id": "GOLDEN_000009",
+          "percentage": 100.0
+        },
+        {
+          "entity_id": "GOLDEN_000011",
+          "percentage": 75.5
+        },
+        {
+          "entity_id": "GOLDEN_000012",
+          "percentage": 100.0
+        },
+        {
+          "entity_id": "GOLDEN_000014",
+          "percentage": 100.0
+        }
+      ],
+      "owned_by": [],
+      "director_of": [
+        "GOLDEN_000004"
+      ],
+      "has_director": []
+    },
+    "GOLDEN_000001": {
+      "entity_type": "company",
+      "ownership_percentage": NaN,
+      "employee_count": NaN,
+      "source_type": "csv_internal",
+      "full_name": "TechStart Ltd",
+      "golden_id": "GOLDEN_000001",
+      "source_record_ids": [
+        "REC_CSV_002"
+      ],
+      "source_records": [
+        {
+          "record_id": "REC_CSV_002",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_CO_12345678",
+          "entity_type": "company",
+          "full_name": "TechStart Ltd",
+          "dob": null,
+          "nationality": null,
+          "address": null,
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.575511",
+      "blocking_key": "CO:SOUNDEX:T236",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000002": {
+      "entity_type": "company",
+      "ownership_percentage": 75.5,
+      "owned_by_entity_id": "ENT_ALICE_19850315",
+      "employee_count": NaN,
+      "source_type": "csv_internal",
+      "full_name": "DataCorp Holdings",
+      "golden_id": "GOLDEN_000002",
+      "source_record_ids": [
+        "REC_CSV_003"
+      ],
+      "source_records": [
+        {
+          "record_id": "REC_CSV_003",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_CO_87654321",
+          "entity_type": "company",
+          "full_name": "DataCorp Holdings",
+          "dob": null,
+          "nationality": null,
+          "address": null,
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": "ENT_ALICE_19850315",
+          "ownership_percentage": 75.5
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.579549",
+      "blocking_key": "CO:SOUNDEX:D326",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [
+        {
+          "entity_id": "GOLDEN_000015",
+          "percentage": 80.0
+        }
+      ],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000000",
+          "percentage": 75.5
+        }
+      ],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000003": {
+      "entity_type": "company",
+      "ownership_percentage": 45.0,
+      "owned_by_entity_id": "ENT_DIANA_19831105",
+      "address": "400 Real Estate Road, Leeds, United Kingdom",
+      "country": "United Kingdom",
+      "dob": "1965-08-20",
+      "city": "Leeds",
+      "nationality": "British",
+      "employee_count": 5.0,
+      "source_type": "xml_companies_house",
+      "date_incorporated": "2017-11-10",
+      "company_number": "22334455",
+      "full_name": "Property Investments Limited",
+      "golden_id": "GOLDEN_000003",
+      "source_record_ids": [
+        "BATCH_20260226_121921_REC_000018",
+        "REC_CSV_004",
+        "BATCH_20260226_121921_REC_000002"
+      ],
+      "source_records": [
+        {
+          "record_id": "BATCH_20260226_121921_REC_000018",
+          "source_type": "xml_companies_house",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.656210",
+          "entity_id": null,
+          "entity_type": "company",
+          "full_name": "Property Investments Limited",
+          "dob": null,
+          "nationality": null,
+          "address": "400 Real Estate Road, Leeds, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "22334455",
+          "date_incorporated": "2017-11-10",
+          "employee_count": 5.0,
+          "is_offshore": false,
+          "city": "Leeds",
+          "country": "United Kingdom",
+          "owned_by_entity_id": "ENT_DIANA_19831105",
+          "ownership_percentage": 45.0
+        },
+        {
+          "record_id": "REC_CSV_004",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_BOB_19650820",
+          "entity_type": "person",
+          "full_name": "Bob Wilson",
+          "dob": "1965-08-20",
+          "nationality": "British",
+          "address": "15 Diplomatic Drive London",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "BATCH_20260226_121921_REC_000002",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_CO_22334455",
+          "entity_type": "company",
+          "full_name": "Property Investments Ltd",
+          "dob": null,
+          "nationality": null,
+          "address": "400 Real Estate Road, Leeds, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "22334455",
+          "date_incorporated": "2017-11-10",
+          "employee_count": 5.0,
+          "is_offshore": false,
+          "city": "Leeds",
+          "country": "United Kingdom",
+          "owned_by_entity_id": "ENT_DIANA_19831105",
+          "ownership_percentage": 45.0
+        }
+      ],
+      "source_count": 3,
+      "created_at": "2026-02-26T12:23:12.582544",
+      "blocking_key": "CO:NUM:223",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000007",
+          "percentage": 45.0
+        }
+      ],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000004": {
+      "entity_type": "company",
+      "ownership_percentage": NaN,
+      "employee_count": NaN,
+      "source_type": "csv_internal",
+      "full_name": "GreenEnergy Solutions",
+      "golden_id": "GOLDEN_000004",
+      "source_record_ids": [
+        "REC_CSV_005"
+      ],
+      "source_records": [
+        {
+          "record_id": "REC_CSV_005",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_CO_99887766",
+          "entity_type": "company",
+          "full_name": "GreenEnergy Solutions",
+          "dob": null,
+          "nationality": null,
+          "address": null,
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.583370",
+      "blocking_key": "CO:SOUNDEX:G655",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [],
+      "director_of": [],
+      "has_director": [
+        "GOLDEN_000000"
+      ]
+    },
+    "GOLDEN_000005": {
+      "entity_type": "company",
+      "ownership_percentage": 51.0,
+      "owned_by_entity_id": "ENT_ALICE_19850315",
+      "address": "Moscow, Russia",
+      "pep_level": "parliament_member",
+      "director_of_entity_ids": "ENT_CO_OFFSHORE_001",
+      "country": "Russia",
+      "is_pep": true,
+      "dob": "1995-03-10",
+      "city": "Cambridge",
+      "nationality": "Russian",
+      "employee_count": 12.0,
+      "source_type": "json_land_registry",
+      "date_incorporated": "2021-03-10",
+      "company_number": "33445566",
+      "full_name": "Blockchain Ventures Ltd",
+      "golden_id": "GOLDEN_000005",
+      "source_record_ids": [
+        "BATCH_20260226_121921_REC_000011",
+        "BATCH_20260226_121921_REC_000006",
+        "BATCH_20260226_121921_REC_000005",
+        "BATCH_20260226_121921_REC_000012",
+        "BATCH_20260226_121921_REC_000004",
+        "BATCH_20260226_121921_REC_000007",
+        "BATCH_20260226_121921_REC_000010",
+        "BATCH_20260226_121921_REC_000009",
+        "BATCH_20260226_121921_REC_000008",
+        "REC_CSV_006"
+      ],
+      "source_records": [
+        {
+          "record_id": "BATCH_20260226_121921_REC_000011",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_IVAN_19950310",
+          "entity_type": "person",
+          "full_name": "Ivan Petrov",
+          "dob": "1995-03-10",
+          "nationality": "Russian",
+          "address": "Moscow, Russia",
+          "director_of_entity_ids": "ENT_CO_CIRCULAR_B",
+          "is_pep": false,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": "Moscow",
+          "country": "Russia",
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "BATCH_20260226_121921_REC_000006",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_CO_BLOCKCHAIN_001",
+          "entity_type": "company",
+          "full_name": "Blockchain Ventures Ltd",
+          "dob": null,
+          "nationality": null,
+          "address": "Crypto Tower, London, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "33445566",
+          "date_incorporated": "2021-03-10",
+          "employee_count": 12.0,
+          "is_offshore": false,
+          "city": "London",
+          "country": "United Kingdom",
+          "owned_by_entity_id": "ENT_ALICE_19850315",
+          "ownership_percentage": 51.0
+        },
+        {
+          "record_id": "BATCH_20260226_121921_REC_000005",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_GRACE_19900515",
+          "entity_type": "person",
+          "full_name": "Grace Lee",
+          "dob": "1990-05-15",
+          "nationality": "British",
+          "address": "88 Tech Hub, Cambridge, United Kingdom",
+          "director_of_entity_ids": "ENT_CO_55667788",
+          "is_pep": false,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": "Cambridge",
+          "country": "United Kingdom",
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "BATCH_20260226_121921_REC_000012",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_IVAN_19950310",
+          "entity_type": "person",
+          "full_name": "Ivan Petrov",
+          "dob": "1995-03-10",
+          "nationality": "Russian",
+          "address": "Moscow, Russia",
+          "director_of_entity_ids": "ENT_CO_OFFSHORE_001",
+          "is_pep": false,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": "Moscow",
+          "country": "Russia",
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "BATCH_20260226_121921_REC_000004",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_GRACE_19900515",
+          "entity_type": "person",
+          "full_name": "Grace Lee",
+          "dob": "1990-05-15",
+          "nationality": "British",
+          "address": "88 Tech Hub, Cambridge, United Kingdom",
+          "director_of_entity_ids": "ENT_CO_12345678",
+          "is_pep": false,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": "Cambridge",
+          "country": "United Kingdom",
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "BATCH_20260226_121921_REC_000007",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_HENRY_19701225",
+          "entity_type": "person",
+          "full_name": "Henry Thompson",
+          "dob": "1970-12-25",
+          "nationality": "British",
+          "address": "House of Commons, London, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": true,
+          "pep_level": "parliament_member",
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": "London",
+          "country": "United Kingdom",
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "BATCH_20260226_121921_REC_000010",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_IVAN_19950310",
+          "entity_type": "person",
+          "full_name": "Ivan Petrov",
+          "dob": "1995-03-10",
+          "nationality": "Russian",
+          "address": "Moscow, Russia",
+          "director_of_entity_ids": "ENT_CO_CIRCULAR_A",
+          "is_pep": false,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": "Moscow",
+          "country": "Russia",
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        },
+        {
+          "record_id": "BATCH_20260226_121921_REC_000009",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_CO_CIRCULAR_B",
+          "entity_type": "company",
+          "full_name": "Circular Company B Ltd",
+          "dob": null,
+          "nationality": null,
+          "address": "London, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "88888888",
+          "date_incorporated": "2020-01-01",
+          "employee_count": 3.0,
+          "is_offshore": false,
+          "city": "London",
+          "country": "United Kingdom",
+          "owned_by_entity_id": "ENT_CO_CIRCULAR_A",
+          "ownership_percentage": 50.0
+        },
+        {
+          "record_id": "BATCH_20260226_121921_REC_000008",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_CO_CIRCULAR_A",
+          "entity_type": "company",
+          "full_name": "Circular Company A Ltd",
+          "dob": null,
+          "nationality": null,
+          "address": "London, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "77777777",
+          "date_incorporated": "2020-01-01",
+          "employee_count": 3.0,
+          "is_offshore": false,
+          "city": "London",
+          "country": "United Kingdom",
+          "owned_by_entity_id": "ENT_CO_CIRCULAR_B",
+          "ownership_percentage": 50.0
+        },
+        {
+          "record_id": "REC_CSV_006",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_CHARLIE_19920711",
+          "entity_type": "person",
+          "full_name": "Charlie Brown",
+          "dob": "1992-07-11",
+          "nationality": "American",
+          "address": "22 Elm Avenue Manchester",
+          "director_of_entity_ids": "ENT_CO_87654321",
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        }
+      ],
+      "source_count": 10,
+      "created_at": "2026-02-26T12:23:12.589492",
+      "blocking_key": "CO:NUM:334",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [
+        {
+          "entity_id": "GOLDEN_000006",
+          "percentage": 60.0
+        },
+        {
+          "entity_id": "GOLDEN_000013",
+          "percentage": 60.0
+        }
+      ],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000000",
+          "percentage": 51.0
+        }
+      ],
+      "director_of": [
+        "GOLDEN_000010"
+      ],
+      "has_director": []
+    },
+    "GOLDEN_000006": {
+      "entity_type": "company",
+      "ownership_percentage": 60.0,
+      "owned_by_entity_id": "ENT_CHARLIE_19920711",
+      "employee_count": NaN,
+      "source_type": "csv_internal",
+      "full_name": "FinTech Innovations",
+      "golden_id": "GOLDEN_000006",
+      "source_record_ids": [
+        "REC_CSV_007"
+      ],
+      "source_records": [
+        {
+          "record_id": "REC_CSV_007",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_CO_55667788",
+          "entity_type": "company",
+          "full_name": "FinTech Innovations",
+          "dob": null,
+          "nationality": null,
+          "address": null,
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": "ENT_CHARLIE_19920711",
+          "ownership_percentage": 60.0
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.589492",
+      "blocking_key": "CO:SOUNDEX:F532",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000005",
+          "percentage": 60.0
+        }
+      ],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000007": {
+      "entity_type": "person",
+      "ownership_percentage": NaN,
+      "address": "Parliament Square London",
+      "dob": "1983-11-05",
+      "nationality": "British",
+      "employee_count": NaN,
+      "source_type": "csv_internal",
+      "full_name": "Diana Prince",
+      "golden_id": "GOLDEN_000007",
+      "source_record_ids": [
+        "REC_CSV_008"
+      ],
+      "source_records": [
+        {
+          "record_id": "REC_CSV_008",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_DIANA_19831105",
+          "entity_type": "person",
+          "full_name": "Diana Prince",
+          "dob": "1983-11-05",
+          "nationality": "British",
+          "address": "Parliament Square London",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": null,
+          "ownership_percentage": NaN
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.595536",
+      "blocking_key": "P:P:1983-11-05",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [
+        {
+          "entity_id": "GOLDEN_000003",
+          "percentage": 45.0
+        },
+        {
+          "entity_id": "GOLDEN_000008",
+          "percentage": 45.0
+        }
+      ],
+      "owned_by": [],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000008": {
+      "entity_type": "company",
+      "ownership_percentage": 45.0,
+      "owned_by_entity_id": "ENT_DIANA_19831105",
+      "employee_count": NaN,
+      "source_type": "csv_internal",
+      "full_name": "Property Investments Ltd",
+      "golden_id": "GOLDEN_000008",
+      "source_record_ids": [
+        "REC_CSV_009"
+      ],
+      "source_records": [
+        {
+          "record_id": "REC_CSV_009",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_CO_22334455",
+          "entity_type": "company",
+          "full_name": "Property Investments Ltd",
+          "dob": null,
+          "nationality": null,
+          "address": null,
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": "ENT_DIANA_19831105",
+          "ownership_percentage": 45.0
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.598547",
+      "blocking_key": "CO:SOUNDEX:P616",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [
+        {
+          "entity_id": "GOLDEN_000010",
+          "percentage": 100.0
+        }
+      ],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000007",
+          "percentage": 45.0
+        }
+      ],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000009": {
+      "entity_type": "company",
+      "ownership_percentage": 100.0,
+      "owned_by_entity_id": "ENT_ALICE_19850315",
+      "nationality": "Cayman Islands",
+      "employee_count": NaN,
+      "source_type": "csv_internal",
+      "full_name": "Global Holdings Ltd",
+      "golden_id": "GOLDEN_000009",
+      "source_record_ids": [
+        "REC_CSV_010"
+      ],
+      "source_records": [
+        {
+          "record_id": "REC_CSV_010",
+          "source_type": "csv_internal",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2024-02-01T10:00:00",
+          "entity_id": "ENT_CO_11111111",
+          "entity_type": "company",
+          "full_name": "Global Holdings Ltd",
+          "dob": null,
+          "nationality": "Cayman Islands",
+          "address": null,
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": null,
+          "date_incorporated": null,
+          "employee_count": NaN,
+          "is_offshore": null,
+          "city": null,
+          "country": null,
+          "owned_by_entity_id": "ENT_ALICE_19850315",
+          "ownership_percentage": 100.0
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.601546",
+      "blocking_key": "CO:CAYMAN ISLANDS:PROP",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000000",
+          "percentage": 100.0
+        }
+      ],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000010": {
+      "entity_type": "company",
+      "ownership_percentage": 100.0,
+      "owned_by_entity_id": "ENT_CO_22334455",
+      "address": "Road Town, British Virgin Islands",
+      "country": "British Virgin Islands",
+      "city": "Road Town",
+      "source_type": "json_land_registry",
+      "company_number": "BVI12345",
+      "full_name": "BVI Holdings Inc",
+      "is_offshore": true,
+      "golden_id": "GOLDEN_000010",
+      "source_record_ids": [
+        "BATCH_20260226_121921_REC_000003"
+      ],
+      "source_records": [
+        {
+          "record_id": "BATCH_20260226_121921_REC_000003",
+          "source_type": "json_land_registry",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.670120",
+          "entity_id": "ENT_CO_OFFSHORE_001",
+          "entity_type": "company",
+          "full_name": "BVI Holdings Inc",
+          "dob": null,
+          "nationality": null,
+          "address": "Road Town, British Virgin Islands",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "BVI12345",
+          "date_incorporated": null,
+          "employee_count": 0.0,
+          "is_offshore": true,
+          "city": "Road Town",
+          "country": "British Virgin Islands",
+          "owned_by_entity_id": "ENT_CO_22334455",
+          "ownership_percentage": 100.0
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.604669",
+      "blocking_key": "CO:NUM:BVI",
+      "risk_score": 25,
+      "risk_factors": [
+        {
+          "type": "SHELL_COMPANY",
+          "severity": "HIGH",
+          "detail": "Offshore, 0 employees, $0 revenue"
+        }
+      ],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000008",
+          "percentage": 100.0
+        }
+      ],
+      "director_of": [],
+      "has_director": [
+        "GOLDEN_000005"
+      ]
+    },
+    "GOLDEN_000011": {
+      "entity_type": "company",
+      "ownership_percentage": 75.5,
+      "owned_by_entity_id": "ENT_ALICE_19850315",
+      "address": "200 Data Lane, Birmingham, United Kingdom",
+      "country": "United Kingdom",
+      "city": "Birmingham",
+      "employee_count": 50.0,
+      "source_type": "xml_companies_house",
+      "date_incorporated": "2018-03-15",
+      "company_number": "87654321",
+      "full_name": "DataCorp Holdings Ltd",
+      "golden_id": "GOLDEN_000011",
+      "source_record_ids": [
+        "BATCH_20260226_121921_REC_000013"
+      ],
+      "source_records": [
+        {
+          "record_id": "BATCH_20260226_121921_REC_000013",
+          "source_type": "xml_companies_house",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.656210",
+          "entity_id": null,
+          "entity_type": "company",
+          "full_name": "DataCorp Holdings Ltd",
+          "dob": null,
+          "nationality": null,
+          "address": "200 Data Lane, Birmingham, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "87654321",
+          "date_incorporated": "2018-03-15",
+          "employee_count": 50.0,
+          "is_offshore": false,
+          "city": "Birmingham",
+          "country": "United Kingdom",
+          "owned_by_entity_id": "ENT_ALICE_19850315",
+          "ownership_percentage": 75.5
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.607668",
+      "blocking_key": "CO:NUM:876",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000000",
+          "percentage": 75.5
+        }
+      ],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000012": {
+      "entity_type": "company",
+      "ownership_percentage": 100.0,
+      "owned_by_entity_id": "ENT_ALICE_19850315",
+      "address": "George Town, Cayman Islands",
+      "country": "Cayman Islands",
+      "city": "George Town",
+      "source_type": "xml_companies_house",
+      "date_incorporated": "2015-01-01",
+      "company_number": "CAYMAN001",
+      "full_name": "Offshore Ventures Inc",
+      "is_offshore": true,
+      "golden_id": "GOLDEN_000012",
+      "source_record_ids": [
+        "BATCH_20260226_121921_REC_000014"
+      ],
+      "source_records": [
+        {
+          "record_id": "BATCH_20260226_121921_REC_000014",
+          "source_type": "xml_companies_house",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.656210",
+          "entity_id": null,
+          "entity_type": "company",
+          "full_name": "Offshore Ventures Inc",
+          "dob": null,
+          "nationality": null,
+          "address": "George Town, Cayman Islands",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "CAYMAN001",
+          "date_incorporated": "2015-01-01",
+          "employee_count": 0.0,
+          "is_offshore": true,
+          "city": "George Town",
+          "country": "Cayman Islands",
+          "owned_by_entity_id": "ENT_ALICE_19850315",
+          "ownership_percentage": 100.0
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.609680",
+      "blocking_key": "CO:NUM:CAY",
+      "risk_score": 25,
+      "risk_factors": [
+        {
+          "type": "SHELL_COMPANY",
+          "severity": "HIGH",
+          "detail": "Offshore, 0 employees, $0 revenue"
+        }
+      ],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000000",
+          "percentage": 100.0
+        }
+      ],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000013": {
+      "entity_type": "company",
+      "ownership_percentage": 60.0,
+      "owned_by_entity_id": "ENT_CHARLIE_19920711",
+      "address": "500 Finance Avenue, Edinburgh, United Kingdom",
+      "country": "United Kingdom",
+      "city": "Edinburgh",
+      "employee_count": 30.0,
+      "source_type": "xml_companies_house",
+      "date_incorporated": "2022-08-15",
+      "company_number": "55667788",
+      "full_name": "FinTech Innovations Ltd",
+      "golden_id": "GOLDEN_000013",
+      "source_record_ids": [
+        "BATCH_20260226_121921_REC_000015"
+      ],
+      "source_records": [
+        {
+          "record_id": "BATCH_20260226_121921_REC_000015",
+          "source_type": "xml_companies_house",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.656210",
+          "entity_id": null,
+          "entity_type": "company",
+          "full_name": "FinTech Innovations Ltd",
+          "dob": null,
+          "nationality": null,
+          "address": "500 Finance Avenue, Edinburgh, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "55667788",
+          "date_incorporated": "2022-08-15",
+          "employee_count": 30.0,
+          "is_offshore": false,
+          "city": "Edinburgh",
+          "country": "United Kingdom",
+          "owned_by_entity_id": "ENT_CHARLIE_19920711",
+          "ownership_percentage": 60.0
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.609680",
+      "blocking_key": "CO:NUM:556",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000005",
+          "percentage": 60.0
+        }
+      ],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000014": {
+      "entity_type": "company",
+      "ownership_percentage": 100.0,
+      "owned_by_entity_id": "ENT_ALICE_19850315",
+      "address": "George Town, Cayman Islands",
+      "country": "Cayman Islands",
+      "city": "George Town",
+      "source_type": "xml_companies_house",
+      "date_incorporated": "2015-01-01",
+      "company_number": "11111111",
+      "full_name": "Global Holdings Limited",
+      "is_offshore": true,
+      "golden_id": "GOLDEN_000014",
+      "source_record_ids": [
+        "BATCH_20260226_121921_REC_000016"
+      ],
+      "source_records": [
+        {
+          "record_id": "BATCH_20260226_121921_REC_000016",
+          "source_type": "xml_companies_house",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.656210",
+          "entity_id": null,
+          "entity_type": "company",
+          "full_name": "Global Holdings Limited",
+          "dob": null,
+          "nationality": null,
+          "address": "George Town, Cayman Islands",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "11111111",
+          "date_incorporated": "2015-01-01",
+          "employee_count": 0.0,
+          "is_offshore": true,
+          "city": "George Town",
+          "country": "Cayman Islands",
+          "owned_by_entity_id": "ENT_ALICE_19850315",
+          "ownership_percentage": 100.0
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.609680",
+      "blocking_key": "CO:NUM:111",
+      "risk_score": 25,
+      "risk_factors": [
+        {
+          "type": "SHELL_COMPANY",
+          "severity": "HIGH",
+          "detail": "Offshore, 0 employees, $0 revenue"
+        }
+      ],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000000",
+          "percentage": 100.0
+        }
+      ],
+      "director_of": [],
+      "has_director": []
+    },
+    "GOLDEN_000015": {
+      "entity_type": "company",
+      "ownership_percentage": 80.0,
+      "owned_by_entity_id": "ENT_CO_87654321",
+      "address": "300 Eco Street, Oxford, United Kingdom",
+      "country": "United Kingdom",
+      "city": "Oxford",
+      "employee_count": 25.0,
+      "source_type": "xml_companies_house",
+      "date_incorporated": "2019-06-30",
+      "company_number": "99887766",
+      "full_name": "GreenEnergy Solutions Plc",
+      "golden_id": "GOLDEN_000015",
+      "source_record_ids": [
+        "BATCH_20260226_121921_REC_000017"
+      ],
+      "source_records": [
+        {
+          "record_id": "BATCH_20260226_121921_REC_000017",
+          "source_type": "xml_companies_house",
+          "batch_id": "BATCH_20260226_121921",
+          "ingested_at": "2026-02-26T12:19:21.656210",
+          "entity_id": null,
+          "entity_type": "company",
+          "full_name": "GreenEnergy Solutions Plc",
+          "dob": null,
+          "nationality": null,
+          "address": "300 Eco Street, Oxford, United Kingdom",
+          "director_of_entity_ids": null,
+          "is_pep": null,
+          "pep_level": null,
+          "company_number": "99887766",
+          "date_incorporated": "2019-06-30",
+          "employee_count": 25.0,
+          "is_offshore": false,
+          "city": "Oxford",
+          "country": "United Kingdom",
+          "owned_by_entity_id": "ENT_CO_87654321",
+          "ownership_percentage": 80.0
+        }
+      ],
+      "source_count": 1,
+      "created_at": "2026-02-26T12:23:12.609680",
+      "blocking_key": "CO:NUM:998",
+      "risk_score": 0,
+      "risk_factors": [],
+      "risk_level": "LOW",
+      "owns": [],
+      "owned_by": [
+        {
+          "entity_id": "GOLDEN_000002",
+          "percentage": 80.0
+        }
+      ],
+      "director_of": [],
+      "has_director": []
+    }
+  },
+  "metadata": {
+    "total_nodes": 16,
+    "total_edges": 14,
+    "created_at": "2026-02-26T12:23:12.626436",
+    "source_records_processed": 49
+  }
+}

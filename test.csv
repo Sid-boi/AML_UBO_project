@@ -1,0 +1,3 @@
+record_id,entity_id,entity_type,full_name,dob,address,nationality,source,source_type,ingested_at,owned_by_entity_id,ownership_percentage,director_of_entity_ids,company_number
+REC_CSV_011,ENT_KATE_19920505,person,Kate Morrison,1992-05-05,50 Innovation Street Cambridge,British,internal_crm,csv_internal,2024-02-27T10:00:00,,,ENT_CO_12345678,
+REC_CSV_012,ENT_CO_44556677,company,AI Research Ltd,,75 Tech Park Cambridge,,internal_crm,csv_internal,2024-02-27T10:00:00,ENT_ALICE_19850315,35.0,,44556677

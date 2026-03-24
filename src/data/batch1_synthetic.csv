@@ -1,0 +1,5 @@
+record_id,entity_id,entity_type,full_name,dob,address,nationality,source,source_type,ingested_at
+REC_001,ENTITY_A,person,John Smith,1985-01-01,London UK,British,synthetic,synthetic,2024-02-07T10:00:00
+REC_002,ENTITY_A,person,J. Smith,1985-01-01,London,British,synthetic,synthetic,2024-02-07T10:01:00
+REC_003,ENTITY_B,person,Jane Doe,1990-05-15,Manchester UK,British,synthetic,synthetic,2024-02-07T10:02:00
+REC_004,ENTITY_C,company,Acme Ltd,,London,British,companies_house,regulatory,2024-02-07T10:03:00

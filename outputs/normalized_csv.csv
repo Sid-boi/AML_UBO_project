@@ -1,0 +1,13 @@
+record_id,source_type,batch_id,ingested_at,entity_id,entity_type,full_name,dob,nationality,address,director_of_entity_ids,is_pep,pep_level,company_number,date_incorporated,employee_count,is_offshore,city,country,owned_by_entity_id,ownership_percentage
+REC_CSV_001,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_ALICE_19850315,person,Alice Johnson,1985-03-15,British,10 Oak Street London,ENT_CO_12345678,,,,,,,,,,
+REC_CSV_001_01,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_ALICE_19850315,person,Alice Johnson,1985-03-15,British,10 Oak Street London,ENT_CO_87654321,,,,,,,,,,
+REC_CSV_001_02,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_ALICE_19850315,person,Alice Johnson,1985-03-15,British,10 Oak Street London,ENT_CO_99887766,,,,,,,,,,
+REC_CSV_002,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_CO_12345678,company,TechStart Ltd,,,,,,,12345678.0,,,,,,,
+REC_CSV_003,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_CO_87654321,company,DataCorp Holdings,,,,,,,87654321.0,,,,,,ENT_ALICE_19850315,75.5
+REC_CSV_004,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_BOB_19650820,person,Bob Wilson,1965-08-20,British,15 Diplomatic Drive London,,,,,,,,,,,
+REC_CSV_005,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_CO_99887766,company,GreenEnergy Solutions,,,,,,,99887766.0,,,,,,,
+REC_CSV_006,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_CHARLIE_19920711,person,Charlie Brown,1992-07-11,American,22 Elm Avenue Manchester,ENT_CO_87654321,,,,,,,,,,
+REC_CSV_007,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_CO_55667788,company,FinTech Innovations,,,,,,,55667788.0,,,,,,ENT_CHARLIE_19920711,60.0
+REC_CSV_008,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_DIANA_19831105,person,Diana Prince,1983-11-05,British,Parliament Square London,,,,,,,,,,,
+REC_CSV_009,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_CO_22334455,company,Property Investments Ltd,,,,,,,22334455.0,,,,,,ENT_DIANA_19831105,45.0
+REC_CSV_010,csv_internal,BATCH_20260226_173631,2024-02-01T10:00:00,ENT_CO_11111111,company,Global Holdings Ltd,,,Cayman Islands,,,,11111111.0,,,,,,ENT_ALICE_19850315,100.0

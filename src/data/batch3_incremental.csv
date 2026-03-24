@@ -1,0 +1,3 @@
+record_id,entity_id,entity_type,full_name,dob,address,nationality,source,source_type,ingested_at,owned_by_entity_id,ownership_percentage
+REC_005,ENTITY_A,person,John M. Smith,1985-01-01,123 Main St London,British,land_registry,external,2024-02-08T10:00:00,,
+REC_007,ENTITY_C,company,Acme Limited,,London UK,British,opencorporates,external,2024-02-08T10:02:00,ENTITY_A,75.5

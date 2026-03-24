@@ -1,0 +1,222 @@
+{
+  "data_source": "offshore_registry_leak",
+  "batch_id": "BATCH_20260302_LEAK",
+  "extraction_date": "2026-03-02",
+  "records": [
+    {
+      "entity_id": "LEAK_PERSON_001",
+      "entity_type": "person",
+      "full_name": "Dmitri Petrov",
+      "date_of_birth": "1965-07-12",
+      "nationality": "Russian",
+      "is_pep": true,
+      "pep_level": "state_enterprise",
+      "address": {
+        "line1": "88 Nevsky Prospect",
+        "city": "St Petersburg",
+        "country": "Russia"
+      },
+      "director_of": ["LEAK_COMPANY_001", "LEAK_COMPANY_002"]
+    },
+    {
+      "entity_id": "LEAK_PERSON_002",
+      "entity_type": "person",
+      "full_name": "Ahmed Al-Mansouri",
+      "date_of_birth": "1972-11-23",
+      "nationality": "Emirati",
+      "is_pep": true,
+      "pep_level": "minister",
+      "address": {
+        "line1": "Dubai Marina Tower 5",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "director_of": ["LEAK_COMPANY_003"]
+    },
+    {
+      "entity_id": "LEAK_PERSON_003",
+      "entity_type": "person",
+      "full_name": "Sarah Chen",
+      "date_of_birth": "1985-03-15",
+      "nationality": "Chinese",
+      "is_pep": false,
+      "address": {
+        "line1": "123 Wan Chai Road",
+        "city": "Hong Kong",
+        "country": "Hong Kong"
+      },
+      "director_of": ["LEAK_COMPANY_004", "LEAK_COMPANY_005"]
+    },
+    {
+      "entity_id": "LEAK_COMPANY_001",
+      "entity_type": "company",
+      "full_name": "Offshore Investments BVI Ltd",
+      "company_number": "BVI123456",
+      "date_incorporated": "2018-06-15",
+      "address": {
+        "line1": "PO Box 3483",
+        "city": "Road Town",
+        "country": "British Virgin Islands"
+      },
+      "employee_count": 0,
+      "is_offshore": true,
+      "ownership": {
+        "entity_id": "LEAK_PERSON_001",
+        "percentage": 100.0,
+        "ownership_type": "beneficial"
+      }
+    },
+    {
+      "entity_id": "LEAK_COMPANY_002",
+      "entity_type": "company",
+      "full_name": "Baltic Trading Corp",
+      "company_number": "CY789012",
+      "date_incorporated": "2019-03-22",
+      "address": {
+        "line1": "15 Makarios Avenue",
+        "city": "Limassol",
+        "country": "Cyprus"
+      },
+      "employee_count": 2,
+      "is_offshore": true,
+      "ownership": {
+        "entity_id": "LEAK_COMPANY_001",
+        "percentage": 80.0,
+        "ownership_type": "direct"
+      }
+    },
+    {
+      "entity_id": "LEAK_COMPANY_003",
+      "entity_type": "company",
+      "full_name": "Desert Holdings LLC",
+      "company_number": "UAE345678",
+      "date_incorporated": "2020-01-10",
+      "address": {
+        "line1": "DIFC Building 3",
+        "city": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      "employee_count": 1,
+      "is_offshore": true,
+      "ownership": {
+        "entity_id": "LEAK_PERSON_002",
+        "percentage": 100.0,
+        "ownership_type": "beneficial"
+      }
+    },
+    {
+      "entity_id": "LEAK_COMPANY_004",
+      "entity_type": "company",
+      "full_name": "Pacific Ventures Ltd",
+      "company_number": "HK987654",
+      "date_incorporated": "2017-08-30",
+      "address": {
+        "line1": "Suite 1203, Central Plaza",
+        "city": "Hong Kong",
+        "country": "Hong Kong"
+      },
+      "employee_count": 25,
+      "is_offshore": false,
+      "ownership": {
+        "entity_id": "LEAK_PERSON_003",
+        "percentage": 60.0,
+        "ownership_type": "direct"
+      }
+    },
+    {
+      "entity_id": "LEAK_COMPANY_005",
+      "entity_type": "company",
+      "full_name": "Singapore Tech Holdings Pte",
+      "company_number": "SG456789",
+      "date_incorporated": "2021-05-12",
+      "address": {
+        "line1": "Marina Bay Financial Centre",
+        "city": "Singapore",
+        "country": "Singapore"
+      },
+      "employee_count": 15,
+      "is_offshore": false,
+      "ownership": {
+        "entity_id": "LEAK_COMPANY_004",
+        "percentage": 45.0,
+        "ownership_type": "direct"
+      }
+    },
+    {
+      "entity_id": "LEAK_COMPANY_006",
+      "entity_type": "company",
+      "full_name": "Crown Investments Cayman",
+      "company_number": "KY112233",
+      "date_incorporated": "2016-12-05",
+      "address": {
+        "line1": "PO Box 897",
+        "city": "George Town",
+        "country": "Cayman Islands"
+      },
+      "employee_count": 0,
+      "is_offshore": true,
+      "ownership": {
+        "entity_id": "LEAK_COMPANY_002",
+        "percentage": 55.0,
+        "ownership_type": "beneficial"
+      }
+    },
+    {
+      "entity_id": "LEAK_COMPANY_007",
+      "entity_type": "company",
+      "full_name": "Circular Holdings Alpha",
+      "company_number": "PA998877",
+      "date_incorporated": "2019-09-15",
+      "address": {
+        "line1": "Torre Global Bank, Piso 15",
+        "city": "Panama City",
+        "country": "Panama"
+      },
+      "employee_count": 1,
+      "is_offshore": true,
+      "ownership": {
+        "entity_id": "LEAK_COMPANY_008",
+        "percentage": 70.0,
+        "ownership_type": "direct"
+      }
+    },
+    {
+      "entity_id": "LEAK_COMPANY_008",
+      "entity_type": "company",
+      "full_name": "Circular Holdings Beta",
+      "company_number": "PA887766",
+      "date_incorporated": "2019-09-20",
+      "address": {
+        "line1": "Torre Global Bank, Piso 16",
+        "city": "Panama City",
+        "country": "Panama"
+      },
+      "employee_count": 1,
+      "is_offshore": true,
+      "ownership": {
+        "entity_id": "LEAK_COMPANY_009",
+        "percentage": 70.0,
+        "ownership_type": "direct"
+      }
+    },
+    {
+      "entity_id": "LEAK_COMPANY_009",
+      "entity_type": "company",
+      "full_name": "Circular Holdings Gamma",
+      "company_number": "PA776655",
+      "date_incorporated": "2019-09-25",
+      "address": {
+        "line1": "Torre Global Bank, Piso 17",
+        "city": "Panama City",
+        "country": "Panama"
+      },
+      "employee_count": 1,
+      "is_offshore": true,
+      "ownership": {
+        "entity_id": "LEAK_COMPANY_007",
+        "percentage": 70.0,
+        "ownership_type": "direct"
+      }
+    }
+  ]
+}

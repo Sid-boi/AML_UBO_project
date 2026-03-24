@@ -1,0 +1,524 @@
+@prefix entity: <http://example.org/entity/> .
+@prefix ubo: <http://example.org/ubo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+entity:GOLDEN_000000 a ubo:Person ;
+    ubo:createdAt "2026-02-27T09:08:02.800169"^^xsd:dateTime ;
+    ubo:dateOfBirth "1985-03-15"^^xsd:date ;
+    ubo:directorCount 3 ;
+    ubo:directorOf entity:GOLDEN_000001,
+        entity:GOLDEN_000002,
+        entity:GOLDEN_000004 ;
+    ubo:hasAddress "10 Oak Street, London, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000002 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000001 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000004 ;
+            ubo:isActive true ;
+            ubo:role "director" ] ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000000" ;
+    ubo:hasName "Alice M. Johnson" ;
+    ubo:hasNationality "British" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000017 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 51.0 ],
+        [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000012 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 100.0 ],
+        [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000009 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 100.0 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:owns entity:GOLDEN_000009,
+        entity:GOLDEN_000012,
+        entity:GOLDEN_000017 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 6 .
+
+entity:GOLDEN_000003 a ubo:Person,
+        ubo:PoliticallyExposedPerson ;
+    ubo:createdAt "2026-02-27T09:08:02.838054"^^xsd:dateTime ;
+    ubo:dateOfBirth "1965-08-20"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "15 Diplomatic Drive, London, United Kingdom" ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000003" ;
+    ubo:hasName "Robert Wilson" ;
+    ubo:hasNationality "British" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000001 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 25.0 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP true ;
+    ubo:owns entity:GOLDEN_000001 ;
+    ubo:pepLevel "diplomat" ;
+    ubo:riskFactor "POLITICALLY_EXPOSED: PEP: diplomat" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 20.0 ;
+    ubo:sourceCount 2 .
+
+entity:GOLDEN_000005 a ubo:Person ;
+    ubo:createdAt "2026-02-27T09:08:02.857718"^^xsd:dateTime ;
+    ubo:dateOfBirth "1992-07-11"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000002 ;
+    ubo:hasAddress "22 Elm Avenue, Manchester, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000002 ;
+            ubo:isActive true ;
+            ubo:role "director" ] ;
+    ubo:hasCity "Manchester" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000005" ;
+    ubo:hasName "Charlie Brown" ;
+    ubo:hasNationality "American" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000006 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 60.0 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:owns entity:GOLDEN_000006 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 .
+
+entity:GOLDEN_000007 a ubo:Person ;
+    ubo:createdAt "2026-02-27T09:08:02.869466"^^xsd:dateTime ;
+    ubo:dateOfBirth "1983-11-05"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "Parliament Square London" ;
+    ubo:hasGoldenId "GOLDEN_000007" ;
+    ubo:hasName "Diana Prince" ;
+    ubo:hasNationality "British" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000013 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 45.0 ],
+        [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000008 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 45.0 ] ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:owns entity:GOLDEN_000008,
+        entity:GOLDEN_000013 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000010 a ubo:Person,
+        ubo:PoliticallyExposedPerson ;
+    ubo:createdAt "2026-02-27T09:08:02.873368"^^xsd:dateTime ;
+    ubo:dateOfBirth "1975-04-20"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000006 ;
+    ubo:hasAddress "Royal Courts of Justice, London, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000006 ;
+            ubo:isActive true ;
+            ubo:role "director" ] ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000010" ;
+    ubo:hasName "Edward Thompson" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP true ;
+    ubo:pepLevel "judge" ;
+    ubo:riskFactor "POLITICALLY_EXPOSED: PEP: judge" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 20.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000011 a ubo:NomineeDirector,
+        ubo:Person ;
+    ubo:createdAt "2026-02-27T09:08:02.889142"^^xsd:dateTime ;
+    ubo:dateOfBirth "1980-12-01"^^xsd:date ;
+    ubo:directorCount 7 ;
+    ubo:directorOf entity:GOLDEN_000001,
+        entity:GOLDEN_000002,
+        entity:GOLDEN_000004,
+        entity:GOLDEN_000006,
+        entity:GOLDEN_000009,
+        entity:GOLDEN_000012,
+        entity:GOLDEN_000013 ;
+    ubo:hasAddress "Corporate Services Ltd, London, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000004 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000013 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000012 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000006 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000009 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000002 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000001 ;
+            ubo:isActive true ;
+            ubo:role "director" ] ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000011" ;
+    ubo:hasName "Sarah Nominee" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee true ;
+    ubo:isPEP false ;
+    ubo:riskFactor "NOMINEE_DIRECTOR: Director of 7 companies" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 35.0 ;
+    ubo:sourceCount 7 .
+
+entity:GOLDEN_000014 a ubo:Person,
+        ubo:PoliticallyExposedPerson ;
+    ubo:createdAt "2026-02-27T09:08:02.904950"^^xsd:dateTime ;
+    ubo:dateOfBirth "1988-12-03"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "US Embassy, London, United Kingdom" ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000014" ;
+    ubo:hasName "Frank Miller" ;
+    ubo:hasNationality "American" ;
+    ubo:isNominee false ;
+    ubo:isPEP true ;
+    ubo:pepLevel "diplomat" ;
+    ubo:riskFactor "POLITICALLY_EXPOSED: PEP: diplomat" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 20.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000016 a ubo:Person ;
+    ubo:createdAt "2026-02-27T09:08:02.904950"^^xsd:dateTime ;
+    ubo:dateOfBirth "1990-05-15"^^xsd:date ;
+    ubo:directorCount 2 ;
+    ubo:directorOf entity:GOLDEN_000001,
+        entity:GOLDEN_000006 ;
+    ubo:hasAddress "88 Tech Hub, Cambridge, United Kingdom" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000001 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000006 ;
+            ubo:isActive true ;
+            ubo:role "director" ] ;
+    ubo:hasCity "Cambridge" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000016" ;
+    ubo:hasName "Grace Lee" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 .
+
+entity:GOLDEN_000018 a ubo:Person,
+        ubo:PoliticallyExposedPerson ;
+    ubo:createdAt "2026-02-27T09:08:02.920727"^^xsd:dateTime ;
+    ubo:dateOfBirth "1970-12-25"^^xsd:date ;
+    ubo:directorCount 0 ;
+    ubo:hasAddress "House of Commons, London, United Kingdom" ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000018" ;
+    ubo:hasName "Henry Thompson" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP true ;
+    ubo:pepLevel "parliament_member" ;
+    ubo:riskFactor "POLITICALLY_EXPOSED: PEP: parliament_member" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 20.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000021 a ubo:Person ;
+    ubo:createdAt "2026-02-27T09:08:02.936450"^^xsd:dateTime ;
+    ubo:dateOfBirth "1995-03-10"^^xsd:date ;
+    ubo:directorCount 3 ;
+    ubo:directorOf entity:GOLDEN_000015,
+        entity:GOLDEN_000019,
+        entity:GOLDEN_000020 ;
+    ubo:hasAddress "Moscow, Russia" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000015 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000019 ;
+            ubo:isActive true ;
+            ubo:role "director" ],
+        [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000020 ;
+            ubo:isActive true ;
+            ubo:role "director" ] ;
+    ubo:hasCity "Moscow" ;
+    ubo:hasCountry "Russia" ;
+    ubo:hasGoldenId "GOLDEN_000021" ;
+    ubo:hasName "Ivan Petrov" ;
+    ubo:hasNationality "Russian" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 3 .
+
+entity:GOLDEN_000022 a ubo:Person ;
+    ubo:createdAt "2026-02-27T13:58:29.364364"^^xsd:dateTime ;
+    ubo:dateOfBirth "1992-05-05"^^xsd:date ;
+    ubo:directorCount 1 ;
+    ubo:directorOf entity:GOLDEN_000001 ;
+    ubo:hasAddress "50 Innovation Street Cambridge" ;
+    ubo:hasAppointment [ a ubo:DirectorshipAppointment ;
+            ubo:atCompany entity:GOLDEN_000001 ;
+            ubo:isActive true ;
+            ubo:role "director" ] ;
+    ubo:hasGoldenId "GOLDEN_000022" ;
+    ubo:hasName "Kate Morrison" ;
+    ubo:hasNationality "British" ;
+    ubo:isNominee false ;
+    ubo:isPEP false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000023 a ubo:Company ;
+    ubo:companyNumber "44556677.0" ;
+    ubo:createdAt "2026-02-27T13:58:29.380186"^^xsd:dateTime ;
+    ubo:hasAddress "75 Tech Park Cambridge" ;
+    ubo:hasGoldenId "GOLDEN_000023" ;
+    ubo:hasName "AI Research Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000008 a ubo:Company ;
+    ubo:companyNumber "22334455.0" ;
+    ubo:createdAt "2026-02-27T09:08:02.873368"^^xsd:dateTime ;
+    ubo:hasGoldenId "GOLDEN_000008" ;
+    ubo:hasName "Property Investments Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000017 a ubo:Company ;
+    ubo:companyNumber "33445566" ;
+    ubo:createdAt "2026-02-27T09:08:02.920727"^^xsd:dateTime ;
+    ubo:dateIncorporated "2021-03-10"^^xsd:date ;
+    ubo:employeeCount 12 ;
+    ubo:hasAddress "Crypto Tower, London, United Kingdom" ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000017" ;
+    ubo:hasName "Blockchain Ventures Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000009 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "11111111" ;
+    ubo:createdAt "2026-02-27T09:08:02.873368"^^xsd:dateTime ;
+    ubo:dateIncorporated "2015-01-01"^^xsd:date ;
+    ubo:hasAddress "George Town, Cayman Islands" ;
+    ubo:hasCity "George Town" ;
+    ubo:hasCountry "Cayman Islands" ;
+    ubo:hasGoldenId "GOLDEN_000009" ;
+    ubo:hasName "Global Holdings Limited" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 .
+
+entity:GOLDEN_000012 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "CAYMAN001" ;
+    ubo:createdAt "2026-02-27T09:08:02.889142"^^xsd:dateTime ;
+    ubo:dateIncorporated "2015-01-01"^^xsd:date ;
+    ubo:hasAddress "George Town, Cayman Islands" ;
+    ubo:hasCity "George Town" ;
+    ubo:hasCountry "Cayman Islands" ;
+    ubo:hasGoldenId "GOLDEN_000012" ;
+    ubo:hasName "Offshore Ventures Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000013 a ubo:Company ;
+    ubo:companyNumber "22334455" ;
+    ubo:createdAt "2026-02-27T09:08:02.889142"^^xsd:dateTime ;
+    ubo:dateIncorporated "2017-11-10"^^xsd:date ;
+    ubo:employeeCount 5 ;
+    ubo:hasAddress "400 Real Estate Road, Leeds, United Kingdom" ;
+    ubo:hasCity "Leeds" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000013" ;
+    ubo:hasName "Property Investments Limited" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000015 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 100.0 ] ;
+    ubo:isOffshore false ;
+    ubo:owns entity:GOLDEN_000015 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 .
+
+entity:GOLDEN_000015 a ubo:Company,
+        ubo:OffshoreCompany ;
+    ubo:companyNumber "BVI12345" ;
+    ubo:createdAt "2026-02-27T09:08:02.904950"^^xsd:dateTime ;
+    ubo:hasAddress "Road Town, British Virgin Islands" ;
+    ubo:hasCity "Road Town" ;
+    ubo:hasCountry "British Virgin Islands" ;
+    ubo:hasGoldenId "GOLDEN_000015" ;
+    ubo:hasName "BVI Holdings Inc" ;
+    ubo:isOffshore true ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000019 a ubo:Company ;
+    ubo:companyNumber "77777777" ;
+    ubo:createdAt "2026-02-27T09:08:02.920727"^^xsd:dateTime ;
+    ubo:dateIncorporated "2020-01-01"^^xsd:date ;
+    ubo:employeeCount 3 ;
+    ubo:hasAddress "London, United Kingdom" ;
+    ubo:hasCircularOwnership true ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000019" ;
+    ubo:hasName "Circular Company A Ltd" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000020 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 50.0 ] ;
+    ubo:isOffshore false ;
+    ubo:owns entity:GOLDEN_000020 ;
+    ubo:riskFactor "CIRCULAR_OWNERSHIP: Part of circular ownership structure" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 35.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000020 a ubo:Company ;
+    ubo:companyNumber "88888888" ;
+    ubo:createdAt "2026-02-27T09:08:02.920727"^^xsd:dateTime ;
+    ubo:dateIncorporated "2020-01-01"^^xsd:date ;
+    ubo:employeeCount 3 ;
+    ubo:hasAddress "London, United Kingdom" ;
+    ubo:hasCircularOwnership true ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000020" ;
+    ubo:hasName "Circular Company B Ltd" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000019 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 50.0 ] ;
+    ubo:isOffshore false ;
+    ubo:owns entity:GOLDEN_000019 ;
+    ubo:riskFactor "CIRCULAR_OWNERSHIP: Part of circular ownership structure" ;
+    ubo:riskLevel "HIGH" ;
+    ubo:riskScore 35.0 ;
+    ubo:sourceCount 1 .
+
+entity:GOLDEN_000002 a ubo:Company ;
+    ubo:companyNumber "87654321" ;
+    ubo:createdAt "2026-02-27T09:08:02.825072"^^xsd:dateTime ;
+    ubo:dateIncorporated "2018-03-15"^^xsd:date ;
+    ubo:employeeCount 50 ;
+    ubo:hasAddress "200 Data Lane, Birmingham, United Kingdom" ;
+    ubo:hasCity "Birmingham" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000002" ;
+    ubo:hasName "DataCorp Holdings Ltd" ;
+    ubo:hasStake [ a ubo:OwnershipStake ;
+            ubo:inCompany entity:GOLDEN_000004 ;
+            ubo:ownershipType "beneficial" ;
+            ubo:percentage 80.0 ] ;
+    ubo:isOffshore false ;
+    ubo:owns entity:GOLDEN_000004 ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 .
+
+entity:GOLDEN_000004 a ubo:Company ;
+    ubo:companyNumber "99887766" ;
+    ubo:createdAt "2026-02-27T09:08:02.845091"^^xsd:dateTime ;
+    ubo:dateIncorporated "2019-06-30"^^xsd:date ;
+    ubo:employeeCount 25 ;
+    ubo:hasAddress "300 Eco Street, Oxford, United Kingdom" ;
+    ubo:hasCity "Oxford" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000004" ;
+    ubo:hasName "GreenEnergy Solutions Plc" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 .
+
+entity:GOLDEN_000006 a ubo:Company ;
+    ubo:companyNumber "55667788" ;
+    ubo:createdAt "2026-02-27T09:08:02.860191"^^xsd:dateTime ;
+    ubo:dateIncorporated "2022-08-15"^^xsd:date ;
+    ubo:employeeCount 30 ;
+    ubo:hasAddress "500 Finance Avenue, Edinburgh, United Kingdom" ;
+    ubo:hasCity "Edinburgh" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000006" ;
+    ubo:hasName "FinTech Innovations Ltd" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 .
+
+entity:GOLDEN_000001 a ubo:Company ;
+    ubo:companyNumber "12345678" ;
+    ubo:createdAt "2026-02-27T09:08:02.804156"^^xsd:dateTime ;
+    ubo:dateIncorporated "2020-05-10"^^xsd:date ;
+    ubo:employeeCount 15 ;
+    ubo:hasAddress "100 Silicon Road, London, United Kingdom" ;
+    ubo:hasCity "London" ;
+    ubo:hasCountry "United Kingdom" ;
+    ubo:hasGoldenId "GOLDEN_000001" ;
+    ubo:hasName "TechStart Limited" ;
+    ubo:isOffshore false ;
+    ubo:riskLevel "LOW" ;
+    ubo:riskScore 0.0 ;
+    ubo:sourceCount 2 .
+

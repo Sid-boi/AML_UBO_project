@@ -1,0 +1,148 @@
+schema_version: "1.0"
+schema_name: "OBT Schema v1 - Production"
+description: "One Big Table schema for UBO entity resolution"
+
+# Required fields
+required_fields:
+  - record_id
+  - entity_type
+  - full_name
+
+# Standard fields (guaranteed present, may be empty)
+standard_fields:
+  # Core
+  - record_id
+  - entity_id
+  - entity_type
+  - full_name
+  - source_type
+  - batch_id
+  - ingested_at
+  
+  # Person
+  - dob
+  - nationality
+  - is_pep
+  - pep_level
+  
+  # Company
+  - company_number
+  - date_incorporated
+  - employee_count
+  - is_offshore
+  
+  # Location
+  - address
+  - city
+  - country
+  
+  # Relationships
+  - owned_by_entity_id
+  - ownership_percentage
+  - director_of_entity_ids
+
+# Field types
+field_types:
+  record_id: string
+  entity_id: string
+  entity_type: enum
+  full_name: string
+  dob: date
+  nationality: string
+  is_pep: boolean
+  pep_level: string
+  company_number: string
+  date_incorporated: date
+  employee_count: integer
+  is_offshore: boolean
+  address: string
+  city: string
+  country: string
+  owned_by_entity_id: string
+  ownership_percentage: float
+  director_of_entity_ids: string
+  source_type: string
+  batch_id: string
+  ingested_at: datetime
+
+# Validation rules
+validation_rules:
+  - field: entity_type
+    rule: must_be_one_of
+    values: ["person", "company"]
+  
+  - field: full_name
+    rule: min_length
+    value: 2
+  
+  - field: ownership_percentage
+    rule: range
+    min: 0
+    max: 100
+    optional: true
+  
+  - field: employee_count
+    rule: min_value
+    value: 0
+    optional: true
+  
+  - field: company_number
+    rule: pattern
+    value: "^[0-9]{8}$"
+    optional: true
+
+# Enums
+enums:
+  entity_type:
+    - person
+    - company
+  
+  source_type:
+    - csv_internal
+    - xml_companies_house
+    - json_land_registry
+    - pep_database
+  
+  pep_level:
+    - minister
+    - judge
+    - diplomat
+    - parliament_member
+    - senior_official
+    - ""
+
+# Field mappings (handles variations)
+field_mappings:
+  full_name:
+    - full_name
+    - fullName
+    - Name
+    - CompanyName
+    - PersonName
+  
+  company_number:
+    - company_number
+    - companyNumber
+    - CompanyNumber
+    - registration_number
+  
+  dob:
+    - dob
+    - date_of_birth
+    - dateOfBirth
+    - DateOfBirth
+  
+  country:
+    - country
+    - Country
+    - jurisdiction
+  
+  is_pep:
+    - is_pep
+    - isPEP
+    - pep_flag
+  
+  pep_level:
+    - pep_level
+    - pepLevel
+    - position_level

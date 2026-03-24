@@ -1,0 +1,173 @@
+{
+  "source": "Land Registry & PEP Database Sync",
+  "export_date": "2024-02-15",
+  "api_version": "v2.1",
+  "record_count": 10,
+  "records": [
+    {
+      "entity_id": "",
+      "full_name": "Alice M. Johnson",
+      "entity_type": "person",
+      "dob": "1985-03-15",
+      "nationality": "British",
+      "is_pep": false,
+      "address": {
+        "line1": "10 Oak Street",
+        "city": "London",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "entity_id": "ENT_FRANK_19881203",
+      "full_name": "Frank Miller",
+      "entity_type": "person",
+      "dob": "1988-12-03",
+      "nationality": "American",
+      "is_pep": true,
+      "pep_level": "diplomat",
+      "pep_position": "US Deputy Ambassador",
+      "pep_start_date": "2019-01-20",
+      "address": {
+        "line1": "US Embassy",
+        "city": "London",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "entity_id": "ENT_CO_22334455",
+      "full_name": "Property Investments Ltd",
+      "entity_type": "company",
+      "company_number": "22334455",
+      "date_incorporated": "2017-11-10",
+      "employee_count": 5,
+      "is_offshore": false,
+      "address": {
+        "line1": "400 Real Estate Road",
+        "city": "Leeds",
+        "country": "United Kingdom"
+      },
+      "ownership": {
+        "entity_id": "ENT_DIANA_19831105",
+        "percentage": 45.0
+      }
+    },
+    {
+      "entity_id": "ENT_CO_OFFSHORE_001",
+      "full_name": "BVI Holdings Inc",
+      "entity_type": "company",
+      "company_number": "BVI12345",
+      "employee_count": 0,
+      "is_offshore": true,
+      "address": {
+        "city": "Road Town",
+        "country": "British Virgin Islands"
+      },
+      "owned_by": {
+        "entity_id": "ENT_CO_22334455",
+        "percentage": 100.0
+      }
+    },
+    {
+      "entity_id": "ENT_GRACE_19900515",
+      "full_name": "Grace Lee",
+      "entity_type": "person",
+      "dob": "1990-05-15",
+      "nationality": "British",
+      "is_pep": false,
+      "address": {
+        "line1": "88 Tech Hub",
+        "city": "Cambridge",
+        "country": "United Kingdom"
+      },
+      "director_of": [
+        "ENT_CO_12345678",
+        "ENT_CO_55667788"
+      ]
+    },
+    {
+      "entity_id": "ENT_CO_BLOCKCHAIN_001",
+      "full_name": "Blockchain Ventures Ltd",
+      "entity_type": "company",
+      "company_number": "33445566",
+      "date_incorporated": "2021-03-10",
+      "employee_count": 12,
+      "is_offshore": false,
+      "address": {
+        "line1": "Crypto Tower",
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "ownership": {
+        "entity_id": "ENT_ALICE_19850315",
+        "percentage": 51.0
+      }
+    },
+    {
+      "entity_id": "ENT_HENRY_19701225",
+      "full_name": "Henry Thompson",
+      "entity_type": "person",
+      "dob": "1970-12-25",
+      "nationality": "British",
+      "is_pep": true,
+      "pep_level": "parliament_member",
+      "pep_position": "Member of Parliament for Cambridge",
+      "pep_start_date": "2015-05-07",
+      "address": {
+        "line1": "House of Commons",
+        "city": "London",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "entity_id": "ENT_CO_CIRCULAR_A",
+      "full_name": "Circular Company A Ltd",
+      "entity_type": "company",
+      "company_number": "77777777",
+      "date_incorporated": "2020-01-01",
+      "employee_count": 3,
+      "is_offshore": false,
+      "address": {
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "ownership": {
+        "entity_id": "ENT_CO_CIRCULAR_B",
+        "percentage": 50.0
+      }
+    },
+    {
+      "entity_id": "ENT_CO_CIRCULAR_B",
+      "full_name": "Circular Company B Ltd",
+      "entity_type": "company",
+      "company_number": "88888888",
+      "date_incorporated": "2020-01-01",
+      "employee_count": 3,
+      "is_offshore": false,
+      "address": {
+        "city": "London",
+        "country": "United Kingdom"
+      },
+      "owned_by": {
+        "entity_id": "ENT_CO_CIRCULAR_A",
+        "percentage": 50.0
+      }
+    },
+    {
+      "entity_id": "ENT_IVAN_19950310",
+      "full_name": "Ivan Petrov",
+      "entity_type": "person",
+      "dob": "1995-03-10",
+      "nationality": "Russian",
+      "is_pep": false,
+      "address": {
+        "city": "Moscow",
+        "country": "Russia"
+      },
+      "director_of": [
+        "ENT_CO_CIRCULAR_A",
+        "ENT_CO_CIRCULAR_B",
+        "ENT_CO_OFFSHORE_001"
+      ]
+    }
+  ]
+}
